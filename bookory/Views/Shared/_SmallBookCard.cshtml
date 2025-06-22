@@ -1,0 +1,40 @@
+﻿@model bookory.Models.Book
+
+<div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 204px;" tabindex="-1">
+	<div>
+		<li class="product-style-default product type-product post-109 status-publish first instock product_cat-action-adventure product_cat-activity-books product_cat-anthologies product_cat-cultural product_tag-books product_tag-fiction product_tag-romance-contemporary has-post-thumbnail featured shipping-taxable purchasable product-type-simple" style="width: 100%; display: inline-block;">
+			<div class="product-block">
+				<div class="product-transition">
+					<div class="product-image"><img loading="lazy" decoding="async" width="600" height="840" src="@Model.CoverUrl" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""></div>            <div class="group-action">
+						<div class="shop-action vertical">
+							<button class="woosw-btn woosw-btn-109" data-id="109" data-product_name="@Model.Title" data-product_image="https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/34.jpg" aria-label="Add to wishlist" tabindex="-1">Add to wishlist</button><button class="woosq-btn woosq-btn-109" data-id="109" data-effect="mfp-3d-unfold" data-context="default" tabindex="-1">Quick view</button>                    <div class="opal-add-to-cart-button">
+								<a asp-controller="Cart" asp-action="AddToCart" asp-route-id="@Model.Id" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_109" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="109" data-product_sku="B3847593" aria-label="Add to cart: “@Model.Title”" rel="nofollow" data-success_message="“@Model.Title” has been added to your cart" tabindex="-1">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_109" class="screen-reader-text">
+								</span>
+							</div>
+						</div>
+					</div>
+					<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" tabindex="-1" asp-controller="Books" asp-action="Details" asp-route-id="@Model.Id"></a>
+				</div>
+				<div class="product-caption">
+					<h3 class="woocommerce-loop-product__title">
+						<a tabindex="-1" asp-controller="Books" asp-action="Details" asp-route-id="@Model.Id">@Model.Title</a>
+					</h3><div class="count-review">
+						<div class="star-rating" role="img" aria-label="Rated 3.60 out of 5">
+							<span style="width:72%">Rated <strong class="rating">3.60</strong> out of 5</span>
+						</div><span>5</span>
+					</div>
+					<div class="woocommerce-loop-product__author">
+						<a tabindex="-1" asp-controller="Authors" asp-action="Details" asp-route-id="@Model.AuthorId">@(Model.Author.Name ?? "Unknown")</a>
+					</div>
+					<span class="price">
+						<span class="woocommerce-Price-amount amount">
+							<bdi>
+								<span class="woocommerce-Price-currencySymbol">$</span>@Model.Price
+							</bdi>
+						</span>
+					</span>
+				</div>
+			</div>
+		</li>
+	</div>
+</div>

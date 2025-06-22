@@ -1,0 +1,2883 @@
+﻿@model bookory.Models.BookDetailsViewModel
+
+<!doctype html>
+<html lang="en-US">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<title>@Model.MainBook.Title; Bookory</title>
+	<meta name='robots' content='max-image-preview:large' />
+	<style>
+		img:is([sizes="auto" i], [sizes^="auto," i]) {
+			contain-intrinsic-size: 3000px 1500px
+		}</style>
+	<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
+	<link rel="dns-prefetch" href="http://s.w.org/">
+	<link rel='dns-prefetch' href='http://demo2.pavothemes.com/' />
+	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+	<link rel="alternate" type="application/rss+xml" title="Bookory &raquo; Feed" href="../../feed/index.html" />
+	<link rel="alternate" type="application/rss+xml" title="Bookory &raquo; Comments Feed" href="../../comments/feed/index.html" />
+	<link rel="alternate" type="application/rss+xml" title="Bookory &raquo; @Model.MainBook.Title Comments Feed" href="feed/index.html" />
+	<script>
+		window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/demo2.pavothemes.com\/bookory\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
+		/*! This file is auto-generated */
+		!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+	</script>
+	<link rel='stylesheet' id='dashicons-css' href='../../wp-includes/css/dashicons.mind1c0.css?ver=6.7.2' media='all' />
+	<link rel='stylesheet' id='hfe-widgets-style-css' href='../../wp-content/plugins/header-footer-elementor/inc/widgets-css/frontendb95e.css?ver=2.0.3' media='all' />
+	<style id='wp-emoji-styles-inline-css'>
+
+		img.wp-smiley, img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 0.07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='../../wp-includes/css/dist/block-library/style.mind1c0.css?ver=6.7.2' media='all' />
+	<style id='wp-block-library-theme-inline-css'>
+		.wp-block-audio :where(figcaption) {
+			color: #555;
+			font-size: 13px;
+			text-align: center
+		}
+
+		.is-dark-theme .wp-block-audio :where(figcaption) {
+			color: #ffffffa6
+		}
+
+		.wp-block-audio {
+			margin: 0 0 1em
+		}
+
+		.wp-block-code {
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			font-family: Menlo,Consolas,monaco,monospace;
+			padding: .8em 1em
+		}
+
+		.wp-block-embed :where(figcaption) {
+			color: #555;
+			font-size: 13px;
+			text-align: center
+		}
+
+		.is-dark-theme .wp-block-embed :where(figcaption) {
+			color: #ffffffa6
+		}
+
+		.wp-block-embed {
+			margin: 0 0 1em
+		}
+
+		.blocks-gallery-caption {
+			color: #555;
+			font-size: 13px;
+			text-align: center
+		}
+
+		.is-dark-theme .blocks-gallery-caption {
+			color: #ffffffa6
+		}
+
+		:root :where(.wp-block-image figcaption) {
+			color: #555;
+			font-size: 13px;
+			text-align: center
+		}
+
+		.is-dark-theme :root :where(.wp-block-image figcaption) {
+			color: #ffffffa6
+		}
+
+		.wp-block-image {
+			margin: 0 0 1em
+		}
+
+		.wp-block-pullquote {
+			border-bottom: 4px solid;
+			border-top: 4px solid;
+			color: currentColor;
+			margin-bottom: 1.75em
+		}
+
+			.wp-block-pullquote cite, .wp-block-pullquote footer, .wp-block-pullquote__citation {
+				color: currentColor;
+				font-size: .8125em;
+				font-style: normal;
+				text-transform: uppercase
+			}
+
+		.wp-block-quote {
+			border-left: .25em solid;
+			margin: 0 0 1.75em;
+			padding-left: 1em
+		}
+
+			.wp-block-quote cite, .wp-block-quote footer {
+				color: currentColor;
+				font-size: .8125em;
+				font-style: normal;
+				position: relative
+			}
+
+			.wp-block-quote:where(.has-text-align-right) {
+				border-left: none;
+				border-right: .25em solid;
+				padding-left: 0;
+				padding-right: 1em
+			}
+
+			.wp-block-quote:where(.has-text-align-center) {
+				border: none;
+				padding-left: 0
+			}
+
+			.wp-block-quote.is-large, .wp-block-quote.is-style-large, .wp-block-quote:where(.is-style-plain) {
+				border: none
+			}
+
+		.wp-block-search .wp-block-search__label {
+			font-weight: 700
+		}
+
+		.wp-block-search__button {
+			border: 1px solid #ccc;
+			padding: .375em .625em
+		}
+
+		:where(.wp-block-group.has-background) {
+			padding: 1.25em 2.375em
+		}
+
+		.wp-block-separator.has-css-opacity {
+			opacity: .4
+		}
+
+		.wp-block-separator {
+			border: none;
+			border-bottom: 2px solid;
+			margin-left: auto;
+			margin-right: auto
+		}
+
+			.wp-block-separator.has-alpha-channel-opacity {
+				opacity: 1
+			}
+
+			.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+				width: 100px
+			}
+
+			.wp-block-separator.has-background:not(.is-style-dots) {
+				border-bottom: none;
+				height: 1px
+			}
+
+			.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+				height: 2px
+			}
+
+		.wp-block-table {
+			margin: 0 0 1em
+		}
+
+			.wp-block-table td, .wp-block-table th {
+				word-break: normal
+			}
+
+			.wp-block-table :where(figcaption) {
+				color: #555;
+				font-size: 13px;
+				text-align: center
+			}
+
+		.is-dark-theme .wp-block-table :where(figcaption) {
+			color: #ffffffa6
+		}
+
+		.wp-block-video :where(figcaption) {
+			color: #555;
+			font-size: 13px;
+			text-align: center
+		}
+
+		.is-dark-theme .wp-block-video :where(figcaption) {
+			color: #ffffffa6
+		}
+
+		.wp-block-video {
+			margin: 0 0 1em
+		}
+
+		:root :where(.wp-block-template-part.has-background) {
+			margin-bottom: 0;
+			margin-top: 0;
+			padding: 1.25em 2.375em
+		}
+	</style>
+	<link rel='stylesheet' id='bookory-gutenberg-blocks-css' href='../../wp-content/themes/bookory/assets/css/base/gutenberg-blocks3601.css?ver=2.2.0' media='all' />
+	<style id='classic-theme-styles-inline-css'>
+		/*! This file is auto-generated */
+		.wp-block-button__link {
+			color: #fff;
+			background-color: #32373c;
+			border-radius: 9999px;
+			box-shadow: none;
+			text-decoration: none;
+			padding: calc(.667em + 2px) calc(1.333em + 2px);
+			font-size: 1.125em
+		}
+
+		.wp-block-file__button {
+			background: #32373c;
+			color: #fff;
+			text-decoration: none
+		}
+	</style>
+	<style id='global-styles-inline-css'>
+		:root {
+			--wp--preset--aspect-ratio--square: 1;
+			--wp--preset--aspect-ratio--4-3: 4/3;
+			--wp--preset--aspect-ratio--3-4: 3/4;
+			--wp--preset--aspect-ratio--3-2: 3/2;
+			--wp--preset--aspect-ratio--2-3: 2/3;
+			--wp--preset--aspect-ratio--16-9: 16/9;
+			--wp--preset--aspect-ratio--9-16: 9/16;
+			--wp--preset--color--black: #000000;
+			--wp--preset--color--cyan-bluish-gray: #abb8c3;
+			--wp--preset--color--white: #ffffff;
+			--wp--preset--color--pale-pink: #f78da7;
+			--wp--preset--color--vivid-red: #cf2e2e;
+			--wp--preset--color--luminous-vivid-orange: #ff6900;
+			--wp--preset--color--luminous-vivid-amber: #fcb900;
+			--wp--preset--color--light-green-cyan: #7bdcb5;
+			--wp--preset--color--vivid-green-cyan: #00d084;
+			--wp--preset--color--pale-cyan-blue: #8ed1fc;
+			--wp--preset--color--vivid-cyan-blue: #0693e3;
+			--wp--preset--color--vivid-purple: #9b51e0;
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
+			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
+			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
+			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
+			--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
+			--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
+			--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+			--wp--preset--font-size--small: 14px;
+			--wp--preset--font-size--medium: 23px;
+			--wp--preset--font-size--large: 26px;
+			--wp--preset--font-size--x-large: 42px;
+			--wp--preset--font-size--normal: 16px;
+			--wp--preset--font-size--huge: 37px;
+			--wp--preset--font-family--inter: "Inter", sans-serif;
+			--wp--preset--font-family--cardo: Cardo;
+			--wp--preset--spacing--20: 0.44rem;
+			--wp--preset--spacing--30: 0.67rem;
+			--wp--preset--spacing--40: 1rem;
+			--wp--preset--spacing--50: 1.5rem;
+			--wp--preset--spacing--60: 2.25rem;
+			--wp--preset--spacing--70: 3.38rem;
+			--wp--preset--spacing--80: 5.06rem;
+			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+		}
+
+		:where(.is-layout-flex) {
+			gap: 0.5em;
+		}
+
+		:where(.is-layout-grid) {
+			gap: 0.5em;
+		}
+
+		body .is-layout-flex {
+			display: flex;
+		}
+
+		.is-layout-flex {
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+			.is-layout-flex > :is(*, div) {
+				margin: 0;
+			}
+
+		body .is-layout-grid {
+			display: grid;
+		}
+
+		.is-layout-grid > :is(*, div) {
+			margin: 0;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-color {
+			color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-color {
+			color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-color {
+			color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-color {
+			color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-color {
+			color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-color {
+			color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-color {
+			color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-color {
+			color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-color {
+			color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-color {
+			color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-color {
+			color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-background-color {
+			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-background-color {
+			background-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-background-color {
+			background-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-background-color {
+			background-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-background-color {
+			background-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-background-color {
+			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-background-color {
+			background-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-border-color {
+			border-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-border-color {
+			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-border-color {
+			border-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-border-color {
+			border-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-border-color {
+			border-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-border-color {
+			border-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-border-color {
+			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-border-color {
+			border-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+		}
+
+		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+		}
+
+		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+		}
+
+		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+		}
+
+		.has-cool-to-warm-spectrum-gradient-background {
+			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+		}
+
+		.has-blush-light-purple-gradient-background {
+			background: var(--wp--preset--gradient--blush-light-purple) !important;
+		}
+
+		.has-blush-bordeaux-gradient-background {
+			background: var(--wp--preset--gradient--blush-bordeaux) !important;
+		}
+
+		.has-luminous-dusk-gradient-background {
+			background: var(--wp--preset--gradient--luminous-dusk) !important;
+		}
+
+		.has-pale-ocean-gradient-background {
+			background: var(--wp--preset--gradient--pale-ocean) !important;
+		}
+
+		.has-electric-grass-gradient-background {
+			background: var(--wp--preset--gradient--electric-grass) !important;
+		}
+
+		.has-midnight-gradient-background {
+			background: var(--wp--preset--gradient--midnight) !important;
+		}
+
+		.has-small-font-size {
+			font-size: var(--wp--preset--font-size--small) !important;
+		}
+
+		.has-medium-font-size {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+
+		.has-large-font-size {
+			font-size: var(--wp--preset--font-size--large) !important;
+		}
+
+		.has-x-large-font-size {
+			font-size: var(--wp--preset--font-size--x-large) !important;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:root :where(.wp-block-pullquote) {
+			font-size: 1.5em;
+			line-height: 1.6;
+		}
+	</style>
+	<link rel='stylesheet' id='contact-form-7-css' href='../../wp-content/plugins/contact-form-7/includes/css/styles37ad.css?ver=6.0.1' media='all' />
+	<link rel='stylesheet' id='mas-wc-brands-style-css' href='../../wp-content/plugins/mas-woocommerce-brands/assets/css/stylef488.css?ver=1.1.0' media='all' />
+	<link rel='stylesheet' id='-css' href='../../wp-content/plugins/opal-demo/styled1c0.css?ver=6.7.2' media='all' />
+	<link rel='stylesheet' id='photoswipe-css' href='../../wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min0c46.css?ver=9.5.1' media='all' />
+	<link rel='stylesheet' id='photoswipe-default-skin-css' href='../../wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min0c46.css?ver=9.5.1' media='all' />
+	<style id='woocommerce-inline-inline-css'>
+		.woocommerce form .form-row .required {
+			visibility: visible;
+		}
+	</style>
+	<link rel='stylesheet' id='hfe-style-css' href='../../wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementorb95e.css?ver=2.0.3' media='all' />
+	<link rel='stylesheet' id='elementor-icons-css' href='../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min705c.css?ver=5.34.0' media='all' />
+	<link rel='stylesheet' id='elementor-frontend-css' href='../../wp-content/uploads/elementor/css/custom-frontend.min2420.css?ver=1742270149' media='all' />
+	<link rel='stylesheet' id='elementor-post-4-css' href='../../wp-content/uploads/elementor/css/post-42420.css?ver=1742270149' media='all' />
+	<link rel='stylesheet' id='font-awesome-5-all-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min42e3.css?ver=3.26.0' media='all' />
+	<link rel='stylesheet' id='font-awesome-4-shim-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min42e3.css?ver=3.26.0' media='all' />
+	<link rel='stylesheet' id='elementor-post-125-css' href='../../wp-content/uploads/elementor/css/post-1255db7.css?ver=1742270151' media='all' />
+	<link rel='stylesheet' id='elementor-post-329-css' href='../../wp-content/uploads/elementor/css/post-3295db7.css?ver=1742270151' media='all' />
+	<link rel='stylesheet' id='elementor-post-751-css' href='../../wp-content/uploads/elementor/css/post-7515db7.css?ver=1742270151' media='all' />
+	<link rel='stylesheet' id='woo-variation-swatches-css' href='../../wp-content/plugins/woo-variation-swatches/assets/css/frontend.min63ce.css?ver=1732076616' media='all' />
+	<style id='woo-variation-swatches-inline-css'>
+		:root {
+			--wvs-tick: url("data:image/svg+xml;utf8,%3Csvg filter='drop-shadow(0px 0px 2px rgb(0 0 0 / .8))' xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 30 30'%3E%3Cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='4' d='M4 16L11 23 27 7'/%3E%3C/svg%3E");
+			--wvs-cross: url("data:image/svg+xml;utf8,%3Csvg filter='drop-shadow(0px 0px 5px rgb(255 255 255 / .6))' xmlns='http://www.w3.org/2000/svg' width='72px' height='72px' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23ff0000' stroke-linecap='round' stroke-width='0.6' d='M5 5L19 19M19 5L5 19'/%3E%3C/svg%3E");
+			--wvs-single-product-item-width: 30px;
+			--wvs-single-product-item-height: 30px;
+			--wvs-single-product-item-font-size: 16px
+		}
+	</style>
+	<link rel='stylesheet' id='perfect-scrollbar-css' href='../../wp-content/plugins/woo-smart-wishlist/assets/libs/perfect-scrollbar/css/perfect-scrollbar.mind1c0.css?ver=6.7.2' media='all' />
+	<link rel='stylesheet' id='perfect-scrollbar-wpc-css' href='../../wp-content/plugins/woo-smart-wishlist/assets/libs/perfect-scrollbar/css/custom-themed1c0.css?ver=6.7.2' media='all' />
+	<link rel='stylesheet' id='woosw-icons-css' href='../../wp-content/plugins/woo-smart-wishlist/assets/css/icons1845.css?ver=4.9.6' media='all' />
+	<link rel='stylesheet' id='woosw-frontend-css' href='../../wp-content/plugins/woo-smart-wishlist/assets/css/frontend1845.css?ver=4.9.6' media='all' />
+	<style id='woosw-frontend-inline-css'>
+		.woosw-popup .woosw-popup-inner .woosw-popup-content .woosw-popup-content-bot .woosw-notice {
+			background-color: #5fbd74;
+		}
+
+		.woosw-popup .woosw-popup-inner .woosw-popup-content .woosw-popup-content-bot .woosw-popup-content-bot-inner a:hover {
+			color: #5fbd74;
+			border-color: #5fbd74;
+		}
+	</style>
+	<link rel='stylesheet' id='bookory-style-css' href='../../wp-content/themes/bookory/style3601.css?ver=2.2.0' media='all' />
+	<style id='bookory-style-inline-css'>
+		body {
+			--primary: #F65D4E;
+			--primary_hover: #f4402f;
+			--text: #444444;
+			--accent: #000000;
+			--lighter: #999999;
+			--border: #E6E6E6;
+		}
+
+		media(max - width:1366px) {
+			body .theme-bookory [data-elementor-columns-laptop="1"] .column-item
+
+		{
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+
+		.woocommerce.columns-laptop-1 ul.products li.product {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+
+		body.theme-bookory [data-elementor-columns-laptop="2"] .column-item {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+
+		.woocommerce.columns-laptop-2 ul.products li.product {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+
+		body.theme-bookory [data-elementor-columns-laptop="3"] .column-item {
+			flex: 0 0 33.3333333333%;
+			max-width: 33.3333333333%;
+		}
+
+		.woocommerce.columns-laptop-3 ul.products li.product {
+			flex: 0 0 33.3333333333%;
+			max-width: 33.3333333333%;
+		}
+
+		body.theme-bookory [data-elementor-columns-laptop="4"] .column-item {
+			flex: 0 0 25%;
+			max-width: 25%;
+		}
+
+		.woocommerce.columns-laptop-4 ul.products li.product {
+			flex: 0 0 25%;
+			max-width: 25%;
+		}
+
+		body.theme-bookory [data-elementor-columns-laptop="5"] .column-item {
+			flex: 0 0 20%;
+			max-width: 20%;
+		}
+
+		.woocommerce.columns-laptop-5 ul.products li.product {
+			flex: 0 0 20%;
+			max-width: 20%;
+		}
+
+		body.theme-bookory [data-elementor-columns-laptop="6"] .column-item {
+			flex: 0 0 16.6666666667%;
+			max-width: 16.6666666667%;
+		}
+
+		.woocommerce.columns-laptop-6 ul.products li.product {
+			flex: 0 0 16.6666666667%;
+			max-width: 16.6666666667%;
+		}
+
+		body.theme-bookory [data-elementor-columns-laptop="7"] .column-item {
+			flex: 0 0 14.2857142857%;
+			max-width: 14.2857142857%;
+		}
+
+		.woocommerce.columns-laptop-7 ul.products li.product {
+			flex: 0 0 14.2857142857%;
+			max-width: 14.2857142857%;
+		}
+
+		body.theme-bookory [data-elementor-columns-laptop="8"] .column-item {
+			flex: 0 0 12.5%;
+			max-width: 12.5%;
+		}
+
+		.woocommerce.columns-laptop-8 ul.products li.product {
+			flex: 0 0 12.5%;
+			max-width: 12.5%;
+		}
+
+		}
+
+		media(max - width:1200px) {
+			body .theme-bookory [data-elementor-columns-tablet-extra="1"] .column-item
+
+		{
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+
+		.woocommerce.columns-tablet-extra-1 ul.products li.product {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet-extra="2"] .column-item {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+
+		.woocommerce.columns-tablet-extra-2 ul.products li.product {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet-extra="3"] .column-item {
+			flex: 0 0 33.3333333333%;
+			max-width: 33.3333333333%;
+		}
+
+		.woocommerce.columns-tablet-extra-3 ul.products li.product {
+			flex: 0 0 33.3333333333%;
+			max-width: 33.3333333333%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet-extra="4"] .column-item {
+			flex: 0 0 25%;
+			max-width: 25%;
+		}
+
+		.woocommerce.columns-tablet-extra-4 ul.products li.product {
+			flex: 0 0 25%;
+			max-width: 25%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet-extra="5"] .column-item {
+			flex: 0 0 20%;
+			max-width: 20%;
+		}
+
+		.woocommerce.columns-tablet-extra-5 ul.products li.product {
+			flex: 0 0 20%;
+			max-width: 20%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet-extra="6"] .column-item {
+			flex: 0 0 16.6666666667%;
+			max-width: 16.6666666667%;
+		}
+
+		.woocommerce.columns-tablet-extra-6 ul.products li.product {
+			flex: 0 0 16.6666666667%;
+			max-width: 16.6666666667%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet-extra="7"] .column-item {
+			flex: 0 0 14.2857142857%;
+			max-width: 14.2857142857%;
+		}
+
+		.woocommerce.columns-tablet-extra-7 ul.products li.product {
+			flex: 0 0 14.2857142857%;
+			max-width: 14.2857142857%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet-extra="8"] .column-item {
+			flex: 0 0 12.5%;
+			max-width: 12.5%;
+		}
+
+		.woocommerce.columns-tablet-extra-8 ul.products li.product {
+			flex: 0 0 12.5%;
+			max-width: 12.5%;
+		}
+
+		}
+
+		media(max - width:1024px) {
+			body .theme-bookory [data-elementor-columns-tablet="1"] .column-item
+
+		{
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+
+		.woocommerce.columns-tablet-1 ul.products li.product {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet="2"] .column-item {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+
+		.woocommerce.columns-tablet-2 ul.products li.product {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet="3"] .column-item {
+			flex: 0 0 33.3333333333%;
+			max-width: 33.3333333333%;
+		}
+
+		.woocommerce.columns-tablet-3 ul.products li.product {
+			flex: 0 0 33.3333333333%;
+			max-width: 33.3333333333%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet="4"] .column-item {
+			flex: 0 0 25%;
+			max-width: 25%;
+		}
+
+		.woocommerce.columns-tablet-4 ul.products li.product {
+			flex: 0 0 25%;
+			max-width: 25%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet="5"] .column-item {
+			flex: 0 0 20%;
+			max-width: 20%;
+		}
+
+		.woocommerce.columns-tablet-5 ul.products li.product {
+			flex: 0 0 20%;
+			max-width: 20%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet="6"] .column-item {
+			flex: 0 0 16.6666666667%;
+			max-width: 16.6666666667%;
+		}
+
+		.woocommerce.columns-tablet-6 ul.products li.product {
+			flex: 0 0 16.6666666667%;
+			max-width: 16.6666666667%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet="7"] .column-item {
+			flex: 0 0 14.2857142857%;
+			max-width: 14.2857142857%;
+		}
+
+		.woocommerce.columns-tablet-7 ul.products li.product {
+			flex: 0 0 14.2857142857%;
+			max-width: 14.2857142857%;
+		}
+
+		body.theme-bookory [data-elementor-columns-tablet="8"] .column-item {
+			flex: 0 0 12.5%;
+			max-width: 12.5%;
+		}
+
+		.woocommerce.columns-tablet-8 ul.products li.product {
+			flex: 0 0 12.5%;
+			max-width: 12.5%;
+		}
+
+		}
+
+		media(max - width:880px) {
+			body .theme-bookory [data-elementor-columns-mobile-extra="1"] .column-item
+
+		{
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+
+		.woocommerce.columns-mobile-extra-1 ul.products li.product {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile-extra="2"] .column-item {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+
+		.woocommerce.columns-mobile-extra-2 ul.products li.product {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile-extra="3"] .column-item {
+			flex: 0 0 33.3333333333%;
+			max-width: 33.3333333333%;
+		}
+
+		.woocommerce.columns-mobile-extra-3 ul.products li.product {
+			flex: 0 0 33.3333333333%;
+			max-width: 33.3333333333%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile-extra="4"] .column-item {
+			flex: 0 0 25%;
+			max-width: 25%;
+		}
+
+		.woocommerce.columns-mobile-extra-4 ul.products li.product {
+			flex: 0 0 25%;
+			max-width: 25%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile-extra="5"] .column-item {
+			flex: 0 0 20%;
+			max-width: 20%;
+		}
+
+		.woocommerce.columns-mobile-extra-5 ul.products li.product {
+			flex: 0 0 20%;
+			max-width: 20%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile-extra="6"] .column-item {
+			flex: 0 0 16.6666666667%;
+			max-width: 16.6666666667%;
+		}
+
+		.woocommerce.columns-mobile-extra-6 ul.products li.product {
+			flex: 0 0 16.6666666667%;
+			max-width: 16.6666666667%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile-extra="7"] .column-item {
+			flex: 0 0 14.2857142857%;
+			max-width: 14.2857142857%;
+		}
+
+		.woocommerce.columns-mobile-extra-7 ul.products li.product {
+			flex: 0 0 14.2857142857%;
+			max-width: 14.2857142857%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile-extra="8"] .column-item {
+			flex: 0 0 12.5%;
+			max-width: 12.5%;
+		}
+
+		.woocommerce.columns-mobile-extra-8 ul.products li.product {
+			flex: 0 0 12.5%;
+			max-width: 12.5%;
+		}
+
+		}
+
+		media(max - width:767px) {
+			body .theme-bookory [data-elementor-columns-mobile="1"] .column-item
+
+		{
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+
+		.woocommerce.columns-mobile-1 ul.products li.product {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile="2"] .column-item {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+
+		.woocommerce.columns-mobile-2 ul.products li.product {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile="3"] .column-item {
+			flex: 0 0 33.3333333333%;
+			max-width: 33.3333333333%;
+		}
+
+		.woocommerce.columns-mobile-3 ul.products li.product {
+			flex: 0 0 33.3333333333%;
+			max-width: 33.3333333333%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile="4"] .column-item {
+			flex: 0 0 25%;
+			max-width: 25%;
+		}
+
+		.woocommerce.columns-mobile-4 ul.products li.product {
+			flex: 0 0 25%;
+			max-width: 25%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile="5"] .column-item {
+			flex: 0 0 20%;
+			max-width: 20%;
+		}
+
+		.woocommerce.columns-mobile-5 ul.products li.product {
+			flex: 0 0 20%;
+			max-width: 20%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile="6"] .column-item {
+			flex: 0 0 16.6666666667%;
+			max-width: 16.6666666667%;
+		}
+
+		.woocommerce.columns-mobile-6 ul.products li.product {
+			flex: 0 0 16.6666666667%;
+			max-width: 16.6666666667%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile="7"] .column-item {
+			flex: 0 0 14.2857142857%;
+			max-width: 14.2857142857%;
+		}
+
+		.woocommerce.columns-mobile-7 ul.products li.product {
+			flex: 0 0 14.2857142857%;
+			max-width: 14.2857142857%;
+		}
+
+		body.theme-bookory [data-elementor-columns-mobile="8"] .column-item {
+			flex: 0 0 12.5%;
+			max-width: 12.5%;
+		}
+
+		.woocommerce.columns-mobile-8 ul.products li.product {
+			flex: 0 0 12.5%;
+			max-width: 12.5%;
+		}
+
+		}
+	</style>
+	<link rel='stylesheet' id='slick-css' href='../../wp-content/themes/bookory/assets/css/base/slick3601.css?ver=2.2.0' media='all' />
+	<link rel='stylesheet' id='slick-theme-css' href='../../wp-content/themes/bookory/assets/css/base/slick-theme3601.css?ver=2.2.0' media='all' />
+	<link rel='stylesheet' id='bookory-fonts-css' href='http://fonts.googleapis.com/css?family=Sora:300,400,500,600,700&amp;subset=latin%2Clatin-ext&amp;display=swap' media='all' />
+	<link rel='stylesheet' id='bookory-dokan-style-css' href='../../wp-content/themes/bookory/assets/css/dokan/dokan3601.css?ver=2.2.0' media='all' />
+	<link rel='stylesheet' id='elementor-post-4757-css' href='../../wp-content/uploads/elementor/css/post-47570183.css?ver=1742271259' media='all' />
+	<link rel='stylesheet' id='magnific-popup-css' href='../../wp-content/themes/bookory/assets/css/libs/magnific-popup3601.css?ver=2.2.0' media='all' />
+	<link rel='stylesheet' id='woosq-feather-css' href='../../wp-content/plugins/woo-smart-quick-view/assets/libs/feather/featherd1c0.css?ver=6.7.2' media='all' />
+	<link rel='stylesheet' id='woosq-frontend-css' href='../../wp-content/plugins/woo-smart-quick-view/assets/css/frontendeda1.css?ver=4.1.4' media='all' />
+	<link rel='stylesheet' id='dokan-modal-css' href='../../wp-content/plugins/dokan-lite/assets/vendors/izimodal/iziModal.mina71e.css?ver=1732076614' media='all' />
+	<link rel='stylesheet' id='dokan-select2-css-css' href='../../wp-content/plugins/dokan-lite/assets/vendors/select2/select29dd7.css?ver=3.14.3' media='all' />
+	<link rel='stylesheet' id='bookory-elementor-css' href='../../wp-content/themes/bookory/assets/css/base/elementor3601.css?ver=2.2.0' media='all' />
+	<link rel='stylesheet' id='hfe-icons-list-css' href='../../wp-content/plugins/elementor/assets/css/widget-icon-list.min44b4.css?ver=3.24.3' media='all' />
+	<link rel='stylesheet' id='hfe-social-icons-css' href='../../wp-content/plugins/elementor/assets/css/widget-social-icons.min2401.css?ver=3.24.0' media='all' />
+	<link rel='stylesheet' id='hfe-social-share-icons-brands-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands52d5.css?ver=5.15.3' media='all' />
+	<link rel='stylesheet' id='hfe-social-share-icons-fontawesome-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome52d5.css?ver=5.15.3' media='all' />
+	<link rel='stylesheet' id='hfe-nav-menu-icons-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid52d5.css?ver=5.15.3' media='all' />
+	<link rel='stylesheet' id='bookory-woocommerce-style-css' href='../../wp-content/themes/bookory/assets/css/woocommerce/woocommerce3601.css?ver=2.2.0' media='all' />
+	<link rel='stylesheet' id='tooltipster-css' href='../../wp-content/themes/bookory/assets/css/libs/tooltipster.bundle.min3601.css?ver=2.2.0' media='all' />
+	<link rel='stylesheet' id='bookory-child-style-css' href='../../wp-content/themes/demo-child/style8a54.css?ver=1.0.0' media='all' />
+	<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Sora%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.7.2' media='all' />
+	<link rel='stylesheet' id='elementor-icons-shared-0-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3' media='all' />
+	<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css?ver=5.15.3' media='all' />
+	<link rel='stylesheet' id='elementor-icons-fa-regular-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min52d5.css?ver=5.15.3' media='all' />
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<script type="text/template" id="tmpl-variation-template">
+		<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+		<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+		<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+	</script>
+	<script type="text/template" id="tmpl-unavailable-variation-template">
+		<p role="alert">Sorry, this product is unavailable. Please choose a different combination.</p>
+	</script>
+	<script src="../../wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
+	<script src="../../wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
+	<script id="jquery-js-after">
+		!function($){"use strict";$(document).ready(function(){$(this).scrollTop()>100&&$(".hfe-scroll-to-top-wrap").removeClass("hfe-scroll-to-top-hide"),$(window).scroll(function(){$(this).scrollTop()<100?$(".hfe-scroll-to-top-wrap").fadeOut(300):$(".hfe-scroll-to-top-wrap").fadeIn(300)}),$(".hfe-scroll-to-top-wrap").on("click",function(){$("html, body").animate({scrollTop:0},300);return!1})})}(jQuery);
+	</script>
+	<script src="../../wp-includes/js/dist/hooks.min4fdd.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+	<script src="../../wp-includes/js/dist/i18n.minc33c.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+	<script id="wp-i18n-js-after">
+		wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+	</script>
+	<script src="../../wp-content/plugins/dokan-lite/assets/vendors/izimodal/iziModal.min9dd7.js?ver=3.14.3" id="dokan-modal-js"></script>
+	<script src="../../wp-content/plugins/dokan-lite/assets/vendors/sweetalert2/sweetalert2.all.mina71e.js?ver=1732076614" id="dokan-sweetalert2-js"></script>
+	<script src="../../wp-includes/js/dist/vendor/moment.minf799.js?ver=2.30.1" id="moment-js"></script>
+	<script id="moment-js-after">
+		moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+	</script>
+	<script id="dokan-util-helper-js-extra">
+		var dokan_helper = {"i18n_date_format":"F j, Y","i18n_time_format":"g:i a","week_starts_day":"1","reverse_withdrawal":{"enabled":false},"timepicker_locale":{"am":"am","pm":"pm","AM":"AM","PM":"PM","hr":"hr","hrs":"hrs","mins":"mins"},"daterange_picker_local":{"toLabel":"To","firstDay":1,"fromLabel":"From","separator":" - ","weekLabel":"W","applyLabel":"Apply","cancelLabel":"Clear","customRangeLabel":"Custom","daysOfWeek":["Su","Mo","Tu","We","Th","Fr","Sa"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"]},"sweetalert_local":{"cancelButtonText":"Cancel","closeButtonText":"Close","confirmButtonText":"OK","denyButtonText":"No","closeButtonAriaLabel":"Close this dialog"}};
+		var dokan = {"ajaxurl":"https:\/\/demo2.pavothemes.com\/bookory\/wp-admin\/admin-ajax.php","nonce":"3e7f836769","ajax_loader":"https:\/\/demo2.pavothemes.com\/bookory\/wp-content\/plugins\/dokan-lite\/assets\/images\/ajax-loader.gif","seller":{"available":"Available","notAvailable":"Not Available"},"delete_confirm":"Are you sure?","wrong_message":"Something went wrong. Please try again.","vendor_percentage":"","commission_type":"","rounding_precision":"6","mon_decimal_point":".","currency_format_num_decimals":"2","currency_format_symbol":"$","currency_format_decimal_sep":".","currency_format_thousand_sep":",","currency_format":"%s%v","round_at_subtotal":"no","product_types":["simple"],"loading_img":"https:\/\/demo2.pavothemes.com\/bookory\/wp-content\/plugins\/dokan-lite\/assets\/images\/loading.gif","store_product_search_nonce":"0f9857f6aa","i18n_download_permission":"Are you sure you want to revoke access to this download?","i18n_download_access":"Could not grant access - the user may already have permission for this file or billing email is not set. Ensure the billing email is set, and the order has been saved.","maximum_tags_select_length":"-1","modal_header_color":"#F05025","i18n_choose_featured_img":"Upload featured image","i18n_choose_file":"Choose a file","i18n_choose_gallery":"Add Images to Product Gallery","i18n_choose_featured_img_btn_text":"Set featured image","i18n_choose_file_btn_text":"Insert file URL","i18n_choose_gallery_btn_text":"Add to gallery","duplicates_attribute_messg":"Sorry, this attribute option already exists, Try a different one.","variation_unset_warning":"Warning! This product will not have any variations if this option is not checked.","new_attribute_prompt":"Enter a name for the new attribute term:","remove_attribute":"Remove this attribute?","dokan_placeholder_img_src":"https:\/\/demo2.pavothemes.com\/bookory\/wp-content\/uploads\/woocommerce-placeholder.png","add_variation_nonce":"d652c2a999","link_variation_nonce":"3d7eab734f","delete_variations_nonce":"2c7ef10c70","load_variations_nonce":"e0c5cff241","save_variations_nonce":"9bc8960905","bulk_edit_variations_nonce":"1a3ab0a04c","i18n_link_all_variations":"Are you sure you want to link all variations? This will create a new variation for each and every possible combination of variation attributes (max 50 per run).","i18n_enter_a_value":"Enter a value","i18n_enter_menu_order":"Variation menu order (determines position in the list of variations)","i18n_enter_a_value_fixed_or_percent":"Enter a value (fixed or %)","i18n_delete_all_variations":"Are you sure you want to delete all variations? This cannot be undone.","i18n_last_warning":"Last warning, are you sure?","i18n_choose_image":"Choose an image","i18n_set_image":"Set variation image","i18n_variation_added":"variation added","i18n_variations_added":"variations added","i18n_no_variations_added":"No variations added","i18n_remove_variation":"Are you sure you want to remove this variation?","i18n_scheduled_sale_start":"Sale start date (YYYY-MM-DD format or leave blank)","i18n_scheduled_sale_end":"Sale end date (YYYY-MM-DD format or leave blank)","i18n_edited_variations":"Save changes before changing page?","i18n_variation_count_single":"%qty% variation","i18n_variation_count_plural":"%qty% variations","i18n_no_result_found":"No Result Found","i18n_sales_price_error":"Please insert value less than the regular price!","i18n_decimal_error":"Please enter with one decimal point (.) without thousand separators.","i18n_mon_decimal_error":"Please enter with one monetary decimal point (.) without thousand separators and currency symbols.","i18n_country_iso_error":"Please enter in country code with two capital letters.","i18n_sale_less_than_regular_error":"Please enter in a value less than the regular price.","i18n_delete_product_notice":"This product has produced sales and may be linked to existing orders. Are you sure you want to delete it?","i18n_remove_personal_data_notice":"This action cannot be reversed. Are you sure you wish to erase personal data from the selected orders?","decimal_point":".","variations_per_page":"10","store_banner_dimension":{"width":625,"height":300,"flex-width":true,"flex-height":true},"selectAndCrop":"Select and Crop","chooseImage":"Choose Image","product_title_required":"Product title is required","product_category_required":"Product category is required","product_created_response":"Product created successfully","search_products_nonce":"0b7e828d29","search_products_tags_nonce":"b1d9bacea0","search_customer_nonce":"93f37e876a","i18n_matches_1":"One result is available, press enter to select it.","i18n_matches_n":"%qty% results are available, use up and down arrow keys to navigate.","i18n_no_matches":"No matches found","i18n_ajax_error":"Loading failed","i18n_input_too_short_1":"Please enter 1 or more characters","i18n_input_too_short_n":"Please enter %qty% or more characters","i18n_input_too_long_1":"Please delete 1 character","i18n_input_too_long_n":"Please delete %qty% characters","i18n_selection_too_long_1":"You can only select 1 item","i18n_selection_too_long_n":"You can only select %qty% items","i18n_load_more":"Loading more results\u2026","i18n_searching":"Searching\u2026","i18n_calculating":"Calculating","i18n_ok_text":"OK","i18n_cancel_text":"Cancel","i18n_attribute_label":"Attribute Name","i18n_date_format":"F j, Y","dokan_banner_added_alert_msg":"Are you sure? You have uploaded banner but didn't click the Update Settings button!","update_settings":"Update Settings","search_downloadable_products_nonce":"5e27531d36","search_downloadable_products_placeholder":"Please enter 3 or more characters","rest":{"root":"https:\/\/demo2.pavothemes.com\/bookory\/wp-json\/","nonce":"6032e92fc1","version":"dokan\/v1"},"api":null,"libs":[],"routeComponents":{"default":null},"routes":[],"urls":{"assetsUrl":"https:\/\/demo2.pavothemes.com\/bookory\/wp-content\/plugins\/dokan-lite\/assets"}};
+	</script>
+	<script src="../../wp-content/plugins/dokan-lite/assets/js/helpera71e.js?ver=1732076614" id="dokan-util-helper-js"></script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min22b2.js?ver=2.7.0-wc.9.5.1" id="jquery-blockui-js" data-wp-strategy="defer"></script>
+	<script id="wc-add-to-cart-js-extra">
+		var wc_add_to_cart_params = {"ajax_url":"\/bookory\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/bookory\/?wc-ajax=%%endpoint%%","i18n_view_cart":"","cart_url":"https:\/\/demo2.pavothemes.com\/bookory\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+	</script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min0c46.js?ver=9.5.1" id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min30d3.js?ver=1.7.21-wc.9.5.1" id="zoom-js" defer data-wp-strategy="defer"></script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min4588.js?ver=2.7.2-wc.9.5.1" id="flexslider-js" defer data-wp-strategy="defer"></script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min9c28.js?ver=4.1.1-wc.9.5.1" id="photoswipe-js" defer data-wp-strategy="defer"></script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min9c28.js?ver=4.1.1-wc.9.5.1" id="photoswipe-ui-default-js" defer data-wp-strategy="defer"></script>
+	<script id="wc-single-product-js-extra">
+		var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","i18n_product_gallery_trigger_text":"View full-screen image gallery","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"1","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
+	</script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/frontend/single-product.min0c46.js?ver=9.5.1" id="wc-single-product-js" defer data-wp-strategy="defer"></script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.mineaec.js?ver=2.1.4-wc.9.5.1" id="js-cookie-js" data-wp-strategy="defer"></script>
+	<script id="woocommerce-js-extra">
+		var woocommerce_params = {"ajax_url":"\/bookory\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/bookory\/?wc-ajax=%%endpoint%%"};
+	</script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min0c46.js?ver=9.5.1" id="woocommerce-js" defer data-wp-strategy="defer"></script>
+	<script src="../../wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min42e3.js?ver=3.26.0" id="font-awesome-4-shim-js"></script>
+	<script src="../../wp-includes/js/underscore.min3ab8.js?ver=1.13.7" id="underscore-js"></script>
+	<script id="wp-util-js-extra">
+		var _wpUtilSettings = {"ajax":{"url":"\/bookory\/wp-admin\/admin-ajax.php"}};
+	</script>
+	<script src="../../wp-includes/js/wp-util.mind1c0.js?ver=6.7.2" id="wp-util-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/vendor/jarallaxd1c0.js?ver=6.7.2" id="jarallax-js"></script>
+	<!--[if lt IE 8]>
+	<script src="https://demo2.pavothemes.com/bookory/wp-includes/js/json2.min.js?ver=2015-05-03" id="json2-js"></script>
+	<![endif]-->
+	<link rel="https://api.w.org/" href="../../wp-json/index.html" />
+	<link rel="alternate" title="JSON" type="application/json" href="../../wp-json/wp/v2/product/97.json" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.html?rsd" />
+	<meta name="generator" content="WordPress 6.7.2" />
+	<meta name="generator" content="WooCommerce 9.5.1" />
+	<link rel="canonical" href="index.html" />
+	<link rel='shortlink' href='../../indexb190.html?p=97' />
+	<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="../../wp-json/oembed/1.0/embede307.json?url=https%3A%2F%2Fdemo2.pavothemes.com%2Fbookory%2Fproduct%2Fa-crown-of-petals-and-ice%2F" />
+	<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embed198b?url=https%3A%2F%2Fdemo2.pavothemes.com%2Fbookory%2Fproduct%2Fa-crown-of-petals-and-ice%2F&amp;format=xml" />
+	<noscript>
+		<style>
+			.woocommerce-product-gallery {
+				opacity: 1 !important;
+			}</style>
+	</noscript>
+	<meta name="generator" content="Elementor 3.26.0; features: additional_custom_breakpoints, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-auto">
+	<style>
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+		.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+			background-image: none !important;
+		}
+
+		media screen and (max-height: 1024px) {
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload), .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) *
+
+		{
+			background-image: none !important;
+		}
+
+		}
+
+		media screen and (max-height: 640px) {
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload), .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) *
+
+		{
+			background-image: none !important;
+		}
+
+		}
+	</style>
+	<meta name="generator" content="Powered by Slider Revolution 6.7.18 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+	<style class='wp-fonts-local'>
+		font -face {
+			font-family: Inter;
+			font-style: normal;
+			font-weight: 300 900;
+			font-display: fallback;
+			src: url('../../wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt%2cwght.woff2') format('woff2');
+			font-stretch: normal;
+		}
+
+		font -face {
+			font-family: Cardo;
+			font-style: normal;
+			font-weight: 400;
+			font-display: fallback;
+			src: url('../../wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');
+		}
+	</style>
+	<script>
+		function setREVStartSize(e){
+					//window.requestAnimationFrame(function() {
+						window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+						window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+						try {
+							var pw = document.getElementById(e.c).parentNode.offsetWidth,
+								newh;
+							pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+							e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+							e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+							e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+							e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+							e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+							e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+							e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+							if(e.layout==="fullscreen" || e.l==="fullscreen")
+								newh = Math.max(e.mh,window.RSIH);
+							else{
+								e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+								for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+								e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+								e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+								for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+
+								var nl = new Array(e.rl.length),
+									ix = 0,
+									sl;
+								e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+								e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+								e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+								e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+								for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+								sl = nl[0];
+								for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+								var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+								newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+							}
+							var el = document.getElementById(e.c);
+							if (el!==null && el) el.style.height = newh+"px";
+							el = document.getElementById(e.c+"_wrapper");
+							if (el!==null && el) {
+								el.style.height = newh+"px";
+								el.style.display = "block";
+							}
+						} catch(e){
+							console.log("Failure at Presize of Slider:" + e)
+						}
+					//});
+				  };</script>
+</head>
+<body class="product-template-default single single-product postid-97 wp-custom-logo wp-embed-responsive theme-bookory woocommerce woocommerce-page woocommerce-no-js ehf-header ehf-footer ehf-template-bookory ehf-stylesheet-demo-child woo-variation-swatches wvs-behavior-blur wvs-theme-demo-child wvs-show-label wvs-tooltip group-blog has-post-thumbnail woocommerce-active product-block-style-1 bookory-product-laptop-3 bookory-product-tablet-2 bookory-product-mobile-2 bookory-single-product-width-boxed single-product-horizontal elementor-default elementor-kit-4 bookory-full-width-content dokan-theme-bookory">
+
+	<div id="page" class="hfeed site">
+		<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+			<p class="main-title bhf-hidden" itemprop="headline"><a href="https://demo2.pavothemes.com/bookory" title="Bookory" rel="home">Bookory</a></p>
+			<div data-elementor-type="wp-post" data-elementor-id="125" class="elementor elementor-125">
+
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-f87b6fa elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="f87b6fa" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-container elementor-column-gap-no">
+						<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-cb137cb" data-id="cb137cb" data-element_type="column">
+							<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c24ba3d elementor-widget__width-auto button-style-bookory-yes elementor-widget elementor-widget-button" data-id="c24ba3d" data-element_type="widget" data-widget_type="button.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-button-wrapper">
+											<a class="elementor-button elementor-button-link elementor-size-sm" href="../../contact/index.html">
+												<span class="elementor-button-content-wrapper">
+													<span class="elementor-button-text">Find a Book Store</span>
+												</span>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-7ab420c elementor-widget__width-auto elementor-hidden-mobile elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="7ab420c" data-element_type="widget" data-widget_type="icon-list.default">
+									<div class="elementor-widget-container">
+										<ul class="elementor-icon-list-items">
+											<li class="elementor-icon-list-item">
+												<a href="#">
+
+													<span class="elementor-icon-list-icon">
+														<i aria-hidden="true" class="bookory-icon- bookory-icon-phone"></i>
+													</span>
+													<span class="elementor-icon-list-text">+1 840 - 841 25 69</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5df76f4" data-id="5df76f4" data-element_type="column">
+							<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f7280a0 e-grid-align-right elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="f7280a0" data-element_type="widget" data-widget_type="social-icons.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-social-icons-wrapper elementor-grid">
+											<span class="elementor-grid-item">
+												<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-shrink elementor-repeater-item-4278efd" href="https://www.facebook.com/opalwordpress/" target="_blank">
+													<span class="elementor-screen-only">Facebook</span>
+													<i class="fab fa-facebook"></i>
+												</a>
+											</span>
+											<span class="elementor-grid-item">
+												<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-shrink elementor-repeater-item-e0fa643" href="https://twitter.com/opalwordpress" target="_blank">
+													<span class="elementor-screen-only">Twitter</span>
+													<i class="fab fa-twitter"></i>
+												</a>
+											</span>
+											<span class="elementor-grid-item">
+												<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-shrink elementor-repeater-item-19496a5" href="https://www.instagram.com/opalwordpress/?utm_medium=wpopal_site" target="_blank">
+													<span class="elementor-screen-only">Instagram</span>
+													<i class="fab fa-instagram"></i>
+												</a>
+											</span>
+											<span class="elementor-grid-item">
+												<a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest elementor-animation-shrink elementor-repeater-item-fdb2495" href="https://www.pinterest.com/" target="_blank">
+													<span class="elementor-screen-only">Pinterest</span>
+													<i class="fab fa-pinterest"></i>
+												</a>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9ca9792 elementor-section-stretched elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="9ca9792" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+					<div class="elementor-container elementor-column-gap-no">
+						<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6cbd2d5" data-id="6cbd2d5" data-element_type="column">
+							<div class="elementor-widget-wrap elementor-element-populated">
+
+								<div class="elementor-element elementor-element-5bd5408 elementor-widget__width-auto elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra bookory-canvas-menu-layout-2 elementor-widget elementor-widget-bookory-menu-canvas" data-id="5bd5408" data-element_type="widget" data-widget_type="bookory-menu-canvas.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-canvas-menu-wrapper">
+											<a href="#" class="menu-mobile-nav-button">
+												<span class="toggle-text screen-reader-text">Menu</span>
+												<div class="bookory-icon">
+													<span class="icon-1"></span>
+													<span class="icon-2"></span>
+													<span class="icon-3"></span>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-c3a2fd1 elementor-widget__width-auto elementor-widget elementor-widget-site-logo" data-id="c3a2fd1" data-element_type="widget" data-settings="{&quot;width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:150,&quot;sizes&quot;:[]},&quot;width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;align&quot;:&quot;center&quot;,&quot;width_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;caption_space_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="site-logo.default">
+									<div class="elementor-widget-container">
+										<div class="hfe-site-logo">
+											<a data-elementor-open-lightbox="" class='elementor-clickable' href="https://demo2.pavothemes.com/bookory">
+												<div class="hfe-site-logo-set">
+													<div class="hfe-site-logo-container">
+														<img class="hfe-site-logo-img elementor-animation-" src="../../wp-content/uploads/2022/02/logo-1.svg" alt="default-logo" />
+													</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-060a716 elementor-widget__width-auto elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra elementor-widget elementor-widget-bookory-header-group" data-id="060a716" data-element_type="widget" data-widget_type="bookory-header-group.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-header-group-wrapper">
+											<div class="header-group-action">
+
+
+
+
+												<div class="site-header-cart menu">
+													<a class="cart-contents" href="../../cart/index.html" title="View your shopping cart">
+														<span class="count">0</span>
+														<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>0.00</bdi></span>
+													</a>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e595b4c elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile" data-id="e595b4c" data-element_type="column">
+							<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-fe34fca elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fe34fca" data-element_type="section">
+									<div class="elementor-container elementor-column-gap-no">
+										<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5dbb3b4 elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile" data-id="5dbb3b4" data-element_type="column">
+											<div class="elementor-widget-wrap elementor-element-populated">
+												<div class="elementor-element elementor-element-cca66af elementor-widget__width-initial nav-vertiacl-menu-layout-content-style-1 elementor-widget elementor-widget-bookory-vertical-menu" data-id="cca66af" data-element_type="widget" data-widget_type="bookory-vertical-menu.default">
+													<div class="elementor-widget-container">
+														<div class="elementor-nav-vertical-menu-wrapper">
+															<nav class="vertical-navigation" aria-label="Vertiacl Navigation">
+																<div class="vertical-navigation-header">
+																	<div class="vertical-navigation-title">
+																		<i class="bookory-icon-category"></i>
+																		<div class="title">
+																			Categories
+																		</div>
+																	</div>
+																	<div class="bookory-icon">
+																	</div>
+																</div>
+																<div class="vertical-menu">
+																	<ul id="menu-1-cca66af" class="menu">
+																		<li id="menu-item-2903" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2903"><a href="../../product-category/action-adventure/index.html"><i class="menu-icon bookory-icon-adventure"></i><span class="menu-title">Action &#038; Adventure</span></a></li>
+																		<li id="menu-item-2904" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2904"><a href="../../product-category/activity-books/index.html"><i class="menu-icon bookory-icon-america"></i><span class="menu-title">Americas</span></a></li>
+																		<li id="menu-item-2905" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2905"><a href="../../product-category/animals/index.html"><i class="menu-icon bookory-icon-art"></i><span class="menu-title">Arts &#038; Photography</span></a></li>
+																		<li id="menu-item-3118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3118"><a href="../../product-category/anthologies/index.html"><i class="menu-icon bookory-icon-biographies"></i><span class="menu-title">Biographies</span></a></li>
+																		<li id="menu-item-3120" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3120"><a href="../../product-category/arts-literature/index.html"><i class="menu-icon bookory-icon-child-book"></i><span class="menu-title">Children&#8217;s Books</span></a></li>
+																		<li id="menu-item-3121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3121"><a href="../../product-category/cars-trucks/index.html"><i class="menu-icon bookory-icon-classics"></i><span class="menu-title">Classics</span></a></li>
+																		<li id="menu-item-3122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3122"><a href="../../product-category/classics/index.html"><i class="menu-icon bookory-icon-contemporary"></i><span class="menu-title">Contemporary</span></a></li>
+																		<li id="menu-item-3130" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3130"><a href="../../product-category/contemporary/index.html"><i class="menu-icon bookory-icon-education"></i><span class="menu-title">Education &#038; Reference</span></a></li>
+																		<li id="menu-item-3131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3131"><a href="../../product-category/cultural/index.html"><i class="menu-icon bookory-icon-genre"></i><span class="menu-title">Genre Fiction</span></a></li>
+																		<li id="menu-item-3132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3132"><a href="../../product-category/european/index.html"><i class="menu-icon bookory-icon-historical"></i><span class="menu-title">Historical</span></a></li>
+																	</ul>
+																</div>
+															</nav>
+														</div>
+													</div>
+												</div>
+												<div class="elementor-element elementor-element-e643533 search-form-hide-search-yes elementor-widget__width-initial elementor-widget-laptop__width-initial elementor-widget-tablet_extra__width-initial elementor-widget elementor-widget-bookory-search" data-id="e643533" data-element_type="widget" data-widget_type="bookory-search.default">
+													<div class="elementor-widget-container">
+														<div class="site-search ajax-search">
+															<div class="widget woocommerce widget_product_search">
+																<div class="ajax-search-result d-none"></div>
+																<form role="search" method="get" class="woocommerce-product-search" action="https://demo2.pavothemes.com/bookory/">
+																	<label class="screen-reader-text" for="woocommerce-product-search-field-1">Search for:</label>
+																	<input type="search" id="woocommerce-product-search-field-1" class="search-field" placeholder="Search products&hellip;" autocomplete="off" value="" name="s" />
+																	<button type="submit" value="Search">Search</button>
+																	<input type="hidden" name="post_type" value="product" />
+																</form>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ef34409" data-id="ef34409" data-element_type="column">
+											<div class="elementor-widget-wrap elementor-element-populated">
+												<div class="elementor-element elementor-element-8c1b3e3 elementor-widget__width-auto elementor-hidden-tablet elementor-hidden-mobile_extra elementor-hidden-mobile elementor-widget elementor-widget-bookory-header-group" data-id="8c1b3e3" data-element_type="widget" data-widget_type="bookory-header-group.default">
+													<div class="elementor-widget-container">
+														<div class="elementor-header-group-wrapper">
+															<div class="header-group-action">
+
+
+																<div class="site-header-account">
+																	<a href="../../my-account/index.html">
+																		<i class="bookory-icon-account"></i>
+																	</a>
+																	<div class="account-dropdown">
+																	</div>
+																</div>
+
+																<div class="site-header-wishlist">
+																	<a class="header-wishlist" href="../../wishlist/WOOSW/index.html">
+																		<i class="bookory-icon-heart-1"></i>
+																		<span class="count">17</span>
+																	</a>
+																</div>
+
+																<div class="site-header-cart menu">
+																	<a class="cart-contents" href="../../cart/index.html" title="View your shopping cart">
+																		<span class="count">0</span>
+																		<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>0.00</bdi></span>
+																	</a>
+																</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ae4fcde elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ae4fcde" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+					<div class="elementor-container elementor-column-gap-no">
+						<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6132e73" data-id="6132e73" data-element_type="column">
+							<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0041078 elementor-widget elementor-widget-bookory-nav-menu" data-id="0041078" data-element_type="widget" data-widget_type="bookory-nav-menu.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-nav-menu-wrapper">
+											<nav class="main-navigation" role="navigation" aria-label="Primary Navigation">
+												<div class="primary-navigation">
+													<ul id="menu-1-0041078" class="menu">
+														<li id="menu-item-2842" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-2842">
+															<a href="../../index.html"><span class="menu-title">Home</span></a>
+															<ul class="sub-menu">
+																<li id="menu-item-225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-225"><a href="../../index.html"><span class="menu-title"><span>01</span> &#8211; Home v1</span></a></li>
+																<li id="menu-item-224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224"><a href="../../home-2/index.html"><span class="menu-title"><span>02</span> &#8211; Home v2</span></a></li>
+																<li id="menu-item-223" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-223"><a href="../../home-3/index.html"><span class="menu-title"><span>03</span> &#8211; Home v3</span></a></li>
+																<li id="menu-item-222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-222"><a href="../../home-4/index.html"><span class="menu-title"><span>04</span> &#8211; Home v4</span></a></li>
+																<li id="menu-item-221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221"><a href="../../home-5/index.html"><span class="menu-title"><span>05</span> &#8211; Home v5</span></a></li>
+																<li id="menu-item-8249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8249"><a href="../../home-6/index.html"><span class="menu-title"><span>06</span> &#8211; Home v6</span></a></li>
+																<li id="menu-item-8248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8248"><a href="../../home-7/index.html"><span class="menu-title"><span>07</span> &#8211; Home v7</span></a></li>
+																<li id="menu-item-8247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8247"><a href="../../home-8/index.html"><span class="menu-title"><span>08</span> &#8211; Home v8</span></a></li>
+															</ul>
+														</li>
+														<li id="menu-item-3149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children current_page_parent menu-item-3149 has-mega-menu">
+															<a href="../../shop/index.html"><span class="menu-title">Shop</span></a>
+															<ul class="sub-menu mega-menu custom-subwidth" style="width:850px">
+																<li class="mega-menu-item">
+																	<div data-elementor-type="page" data-elementor-id="3161" class="elementor elementor-3161">
+																		<section class="elementor-section elementor-top-section elementor-element elementor-element-1d224ce elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1d224ce" data-element_type="section">
+																			<div class="elementor-container elementor-column-gap-no">
+																				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-35355f4" data-id="35355f4" data-element_type="column">
+																					<div class="elementor-widget-wrap elementor-element-populated">
+																						<section class="elementor-section elementor-inner-section elementor-element elementor-element-5133c34 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5133c34" data-element_type="section">
+																							<div class="elementor-container elementor-column-gap-no">
+																								<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-f0ef429" data-id="f0ef429" data-element_type="column">
+																									<div class="elementor-widget-wrap elementor-element-populated">
+																										<div class="elementor-element elementor-element-2eccfee elementor-widget elementor-widget-heading" data-id="2eccfee" data-element_type="widget" data-widget_type="heading.default">
+																											<div class="elementor-widget-container">
+																												<h2 class="elementor-heading-title elementor-size-default">shop list</h2>
+																											</div>
+																										</div>
+																										<div class="elementor-element elementor-element-ee09418 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="ee09418" data-element_type="widget" data-widget_type="icon-list.default">
+																											<div class="elementor-widget-container">
+																												<ul class="elementor-icon-list-items">
+																													<li class="elementor-icon-list-item">
+																														<a href="../../shop/index3f9c.html?woocommerce_archive_layout=canvas&amp;woocommerce_catalog_columns=4">
+
+																															<span class="elementor-icon-list-text">Shop - 4 Columns</span>
+																														</a>
+																													</li>
+																													<li class="elementor-icon-list-item">
+																														<a href="../../shop/index2e45.html?woocommerce_archive_layout=canvas&amp;woocommerce_catalog_columns=5">
+
+																															<span class="elementor-icon-list-text">Shop - 5 Columns</span>
+																														</a>
+																													</li>
+																													<li class="elementor-icon-list-item">
+																														<a href="../../shop/index.html">
+
+																															<span class="elementor-icon-list-text">Shop - Sidebar</span>
+																														</a>
+																													</li>
+																													<li class="elementor-icon-list-item">
+																														<a href="../../product-category/cultural/indexef01.html?layout=list">
+
+																															<span class="elementor-icon-list-text">Shop - Listview</span>
+																														</a>
+																													</li>
+																													<li class="elementor-icon-list-item">
+																														<a href="../../product-category/action-adventure/index.html">
+
+																															<span class="elementor-icon-list-text">Shop - Categories Style 01</span>
+																														</a>
+																													</li>
+																													<li class="elementor-icon-list-item">
+																														<a href="../../product-category/activity-books/index.html">
+
+																															<span class="elementor-icon-list-text">Shop - Categories Style 02</span>
+																														</a>
+																													</li>
+																												</ul>
+																											</div>
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</section>
+																					</div>
+																				</div>
+																				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-49d258c" data-id="49d258c" data-element_type="column">
+																					<div class="elementor-widget-wrap elementor-element-populated">
+																						<div class="elementor-element elementor-element-482bcaa elementor-widget elementor-widget-heading" data-id="482bcaa" data-element_type="widget" data-widget_type="heading.default">
+																							<div class="elementor-widget-container">
+																								<h2 class="elementor-heading-title elementor-size-default">Product</h2>
+																							</div>
+																						</div>
+																						<div class="elementor-element elementor-element-a44d20d elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="a44d20d" data-element_type="widget" data-widget_type="icon-list.default">
+																							<div class="elementor-widget-container">
+																								<ul class="elementor-icon-list-items">
+																									<li class="elementor-icon-list-item">
+																										<a href="../the-girl-and-the-last-sleepover/index.html">
+
+																											<span class="elementor-icon-list-text">Boxed Style</span>
+																										</a>
+																									</li>
+																									<li class="elementor-icon-list-item">
+																										<a href="../the-girl-and-the-last-sleepover/index176a.html?single_product_product_width=full">
+
+																											<span class="elementor-icon-list-text">Full Style</span>
+																										</a>
+																									</li>
+																									<li class="elementor-icon-list-item">
+																										<a href="../the-silent-sisters-3/index4945.html?active-sidebar=1&amp;single_product_archive_sidebar=right&amp;single_product_gallery_layout=gallery">
+
+																											<span class="elementor-icon-list-text">Product Sidebar</span>
+																										</a>
+																									</li>
+																									<li class="elementor-icon-list-item">
+																										<a href="../annie-leibovitz-wonderland/index4933.html?single_product_gallery_layout=vertical">
+
+																											<span class="elementor-icon-list-text">Bought Together</span>
+																										</a>
+																									</li>
+																									<li class="elementor-icon-list-item">
+																										<a href="../house-of-sky-and-breath/index.html">
+
+																											<span class="elementor-icon-list-text">Product Countdown</span>
+																										</a>
+																									</li>
+																									<li class="elementor-icon-list-item">
+																										<a href="../p-s-never-in-a-million-years/index.html">
+
+																											<span class="elementor-icon-list-text">Grouped Product</span>
+																										</a>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-b0c1619" data-id="b0c1619" data-element_type="column">
+																					<div class="elementor-widget-wrap elementor-element-populated">
+																						<div class="elementor-element elementor-element-2a64a7a elementor-cta--valign-middle button-banner-style-bookory-default elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-bookory-banner" data-id="2a64a7a" data-element_type="widget" data-widget_type="bookory-banner.default">
+																							<div class="elementor-widget-container">
+																								<div class="elementor-cta--skin-cover elementor-cta elementor-bookory-banner">
+																									<div class="elementor-cta__bg-wrapper">
+																										<div class="elementor-cta__bg elementor-bg" style="background-image: url(../../wp-content/uploads/2022/02/banner-menu.jpg);"></div>
+																										<div class="elementor-cta__bg-overlay"></div>
+																									</div>
+																									<div class="elementor-cta__content">
+																										<div class="elementor-cta__content_inner">
+																											<div class="elementor-cta__subtitle elementor-cta__content-item elementor-content-item">
+																												<span>best offer</span>
+																											</div>
+
+																											<h3 class="elementor-cta__title elementor-cta__content-item elementor-content-item">
+																												save $15
+																											</h3>
+
+																											<div class="elementor-cta__description elementor-cta__content-item elementor-content-item">
+																												on selected items
+																											</div>
+
+																											<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
+																												<a class="elementor-cta__button elementor-button" href="#">
+																													See More<i class="bookory-icon-angle-right"></i>
+																												</a>
+																											</div>
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</section>
+																	</div>
+																</li>
+															</ul>
+														</li>
+														<li id="menu-item-7578" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7578">
+															<a href="../../store-listing/index.html"><span class="menu-title">Vendor</span></a>
+															<ul class="sub-menu">
+																<li id="menu-item-7579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7579"><a href="../../store-listing/index.html"><span class="menu-title">Dokan &#8211; Storelist</span></a></li>
+																<li id="menu-item-8438" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8438"><a href="../../store/barone/index.html"><span class="menu-title">Dokan &#8211; Vendor Store</span></a></li>
+															</ul>
+														</li>
+														<li id="menu-item-1191" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1191">
+															<a href="#"><span class="menu-title">Pages</span></a>
+															<ul class="sub-menu">
+																<li id="menu-item-5751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5751"><a href="../../all-authors/index.html"><span class="menu-title">All Authors</span></a></li>
+																<li id="menu-item-6157" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6157"><a href="../../book-author/enrique-wallace/index.html"><span class="menu-title">Author Profile</span></a></li>
+																<li id="menu-item-3154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3154"><a href="../../about-us/index.html"><span class="menu-title">About Us</span></a></li>
+																<li id="menu-item-3156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3156"><a href="../../faq/index.html"><span class="menu-title">FAQs</span></a></li>
+																<li id="menu-item-6218" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6218"><a href="../../404.html"><span class="menu-title">404 page</span></a></li>
+															</ul>
+														</li>
+														<li id="menu-item-226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-226">
+															<a href="../../blog-list/index.html"><span class="menu-title">Blog</span></a>
+															<ul class="sub-menu">
+																<li id="menu-item-4803" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4803"><a href="../../blog-list/index.html"><span class="menu-title">Blog Standard</span></a></li>
+																<li id="menu-item-4804" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4804"><a href="../../blog-list/index81f0.html?blog_style=style-1&amp;sidebar-blog=0&amp;blog_columns=3"><span class="menu-title">Blog Grid</span></a></li>
+																<li id="menu-item-4805" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4805"><a href="../../top-10-books-to-make-it-a-great-year/index.html"><span class="menu-title">Single Blog</span></a></li>
+															</ul>
+														</li>
+														<li id="menu-item-3150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3150"><a href="../../contact/index.html"><span class="menu-title">Contact</span></a></li>
+													</ul>
+												</div>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</header>
+
+		<div class="breadcrumb-wrap">
+			<div data-elementor-type="wp-post" data-elementor-id="4757" class="elementor elementor-4757">
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a87e818 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a87e818" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+					<div class="elementor-container elementor-column-gap-no">
+						<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a9862a1" data-id="a9862a1" data-element_type="column">
+							<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8e904b1 hidden-bookory-title-yes elementor-widget elementor-widget-bookory-woocommerce-breadcrumb" data-id="8e904b1" data-element_type="widget" data-widget_type="bookory-woocommerce-breadcrumb.default">
+									<div class="elementor-widget-container">
+										<div class="bookory-woocommerce-title">@Model.MainBook.Title</div><nav class="woocommerce-breadcrumb"><a href="https://demo2.pavothemes.com/bookory">Home</a><i class="bookory-icon-right-arrow"></i><a href="../../product-category/cultural/index.html">Cultural</a><i class="bookory-icon-right-arrow"></i>@Model.MainBook.Title</nav>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<div id="content" class="site-content" tabindex="-1">
+			<div class="col-full">
+
+				<div class="woocommerce"></div>
+				<div id="primary" class="content-area">
+					<main id="main" class="site-main" role="main">
+
+						<div class="woocommerce-notices-wrapper"></div><div id="product-97" class="single-product-type-horizontal product type-product post-97 status-publish first instock product_cat-action-adventure product_cat-activity-books product_cat-cultural product_tag-books product_tag-fiction product_tag-romance-contemporary has-post-thumbnail featured virtual sold-individually purchasable product-type-simple">
+
+							<div class="content-single-wrapper">
+								<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-3 images woocommerce-product-gallery-horizontal" data-columns="3">
+									<figure class="woocommerce-product-gallery__wrapper">
+										<div data-thumb="@Model.MainBook.CoverUrl" data-thumb-alt="@Model.MainBook.Title"
+											 data-thumb-srcset="" data-thumb-sizes="(max-width: 71px) 100vw, 71px" class="woocommerce-product-gallery__image">
+											<a href="@Model.MainBook.CoverUrl"><img width="600" height="840" src="@Model.MainBook.CoverUrl" class="wp-post-image" alt="@Model.MainBook.Title"
+													 data-caption="" data-src="@Model.MainBook.CoverUrl" data-large_image="@Model.MainBook.CoverUrl" data-large_image_width="600" data-large_image_height="840" decoding="async" />
+											</a>
+										</div>
+									</figure>
+									<div class="product-video-360"></div>
+								</div>
+
+								<div class="summary entry-summary ">
+									<div class="entry-summary-top">
+										<span class="inventory_status"><span class="stock-title screen-reader-text">Availability:</span> In Stock</span>        <div class="bookory-product-pagination-wrap">
+											<nav class="bookory-product-pagination" aria-label="More products">
+												<a href="../p-s-never-in-a-million-years/index.html" rel="prev">
+													<span class="pagination-prev "><i class="bookory-icon-left-arrow"></i>Prev</span>
+													<div class="product-item">
+														<img width="600" height="840" src="../../wp-content/uploads/2022/02/27.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" />                            <div class="bookory-product-pagination-content">
+															<span class="bookory-product-pagination__title">P.S. Never in a Million Years</span>
+															<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>664.55</bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>906.29</bdi></span></span>
+														</div>
+													</div>
+												</a>
+
+												<a href="../house-of-sky-and-breath/index.html" rel="next">
+													<span class="pagination-next">Next<i class="bookory-icon-right-arrow"></i></span>
+													<div class="product-item">
+														<img width="600" height="840" src="../../wp-content/uploads/2022/02/31.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" />                            <div class="bookory-product-pagination-content">
+															<span class="bookory-product-pagination__title">House of Sky and Breath</span>
+															<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>72.99</bdi></span></span>
+														</div>
+													</div>
+												</a>
+											</nav><!-- .bookory-product-pagination -->
+										</div>
+									</div>
+									<h1 class="product_title entry-title">@Model.MainBook.Title</h1>        <div class="product_after_title">
+										<div class="product-brand">
+											Author: <a asp-controller="Authors" asp-action="Details" asp-route-id="@Model.MainBook.AuthorId">@Model.MainBook.Author.Name</a>
+										</div>
+
+										<div class="woocommerce-product-rating">
+											<div class="star-rating" role="img" aria-label="Rated 4.25 out of 5"><span style="width:85%">Rated <strong class="rating">4.25</strong> out of 5 based on <span class="rating">4</span> customer ratings</span></div>								<a href="#reviews" class="woocommerce-review-link" rel="nofollow">
+												<span class="count">5</span>
+											</a>
+										</div>
+
+										<span class="sku_wrapper">SKU: <span class="sku">B85927643</span></span>
+									</div>
+									<p class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>@Model.MainBook.Price	</bdi></span></p>
+									<div class="woocommerce-product-details__short-description">
+										<p>@Model.MainBook.Description</p>
+									</div>
+
+									<div class="deal-sold">
+										<div class="deal-sold-text">
+											<span>Already sold: </span><span class="value">15/30</span>
+										</div>
+										<div class="deal-progress">
+											<div class="progress-bar">
+												<div class="progress-value" style="width: 50%"></div>
+											</div>
+										</div>
+									</div>
+
+									<p class="stock in-stock">19 in stock (can be backordered)</p>
+
+
+									<form class="cart" asp-controller="Cart" asp-action="AddToCart" asp-route-id="@Model.MainBook.Id" method="post" enctype='multipart/form-data'>
+
+										<div class="quantity hidden">
+											<input type="hidden" id="quantity_684559d0a59f2" class="qty" name="quantity" value="1" />
+										</div>
+
+										<button type="submit" name="add-to-cart" value="97" class="single_add_to_cart_button button alt">Add to cart</button>
+
+										<button class="woosw-btn woosw-btn-97" data-id="97" data-product_name="@Model.MainBook.Title" data-product_image="https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/28.jpg" aria-label="Add to wishlist">Add to wishlist</button>
+									</form>
+
+
+									<div class="product_meta">
+
+
+										<span class="posted_in">Categories:
+											@foreach(var genre in Model.MainBook.Genres)
+											{
+												<a href="/Shop?genres=@genre.Id" rel="tag">@genre.Name</a>
+											}
+										</span>
+										<span class="tagged_as"> Tags:
+											@foreach (var tag in Model.MainBook.Tags)
+											{
+												<a href="/Shop?tags=@tag.Id" rel="tag">@tag.Name</a>
+											}
+										</span>
+
+									</div>
+									<div class="bookory-social-share">
+										<span class="social-share-header">Share:</span>                    <a class="social-facebook" href="https://www.facebook.com/sharer.php?u=https://demo2.pavothemes.com/bookory/product/a-crown-of-petals-and-ice/&amp;display=page" target="_blank" title="Share on facebook">
+											<i class="bookory-icon-facebook-f"></i>
+											<span>Facebook</span>
+										</a>
+
+										<a class="social-twitter" href="https://twitter.com/home?status=%20https://demo2.pavothemes.com/bookory/product/a-crown-of-petals-and-ice/" target="_blank" title="Share on Twitter">
+											<i class="bookory-icon-twitter"></i>
+											<span>Twitter</span>
+										</a>
+
+										<a class="social-linkedin"
+										   href="http://linkedin.com/shareArticle?mini=true&amp;url=https://demo2.pavothemes.com/bookory/product/a-crown-of-petals-and-ice/&amp;title=A%20Crown%20of%20Petals%20and%20Ice"
+										   target="_blank" title="Share on LinkedIn">
+											<i class="bookory-icon-linkedin-in"></i>
+											<span>Linkedin</span>
+										</a>
+
+
+										<a class="social-pinterest" href="https://pinterest.com/pin/create/button/?url=http://https%3A%2F%2Fdemo2.pavothemes.com%2Fbookory%2Fproduct%2Fa-crown-of-petals-and-ice%2F&amp;description=http://A+Crown+of+Petals+and+Ice&amp;;%20?>" target="_blank" title="Share on Pinterest">
+											<i class="bookory-icon-pinterest-p"></i>
+											<span>Pinterest</span>
+										</a>
+
+									</div>
+								</div>
+							</div>
+
+
+							<div class="woocommerce-tabs wc-tabs-wrapper">
+								<ul class="tabs wc-tabs" role="tablist">
+									<li class="description_tab" id="tab-title-description" role="tab" aria-controls="tab-description">
+										<a href="#tab-description">
+											Description
+										</a>
+									</li>
+									<li class="reviews_tab" id="tab-title-reviews" role="tab" aria-controls="tab-reviews">
+										<a href="#tab-reviews">
+											Reviews (5)
+										</a>
+									</li>
+								</ul>
+								<h2 class="resp-accordion tab-description active" role="tab" data-control=".description_tab" aria-controls="#tab-description">Description</h2>
+								<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
+									<div class="woocommerce-tab-width">
+
+										<h2>Description</h2>
+										<p>@Model.MainBook.Description</p>
+									</div>
+								</div>
+								<h2 class="resp-accordion tab-reviews" role="tab" data-control=".reviews_tab" aria-controls="#tab-reviews">Reviews (5)</h2>
+								<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--reviews panel entry-content wc-tab" id="tab-reviews" role="tabpanel" aria-labelledby="tab-title-reviews">
+									<div class="woocommerce-tab-width">
+										<div id="reviews" class="woocommerce-Reviews">
+											<div id="comments">
+												<h2 class="woocommerce-Reviews-title">
+													5 reviews for <span>@Model.MainBook.Title</span>
+												</h2>
+
+												<ol class="commentlist">
+													<li class="review even thread-even depth-1" id="li-comment-37">
+
+														<div id="comment-37" class="comment_container">
+
+															<img alt='' src='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=60&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=120&#038;d=mm&#038;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' decoding='async' />
+															<div class="comment-text">
+
+																<div class="star-rating" role="img" aria-label="Rated 3 out of 5"><span style="width:60%">Rated <strong class="rating">3</strong> out of 5</span></div>
+																<p class="meta">
+																	<strong class="woocommerce-review__author">Join Hiddleston </strong>
+																	<span class="woocommerce-review__dash">&ndash;</span> <time class="woocommerce-review__published-date" datetime="2022-02-15T03:11:40+00:00">February 15, 2022</time>
+																</p>
+
+																<div class="description">
+																	<p>I am 6 feet tall and 220 lbs. This shirt fit me perfectly in the chest and shoulders. My only complaint is that it is so long! I like to wear polo shirts untucked. This shirt goes completely past my rear end. If I wore it with ordinary shorts, you probably wouldnt be able to see the shorts at all &#8211; completely hidden by the shirt. It needs to be 4 to 5 inches shorter in terms of length to suit me. I have many RL polo shirts, and this one is by far the longest. I dont understand why.</p>
+																</div>
+															</div>
+														</div>
+													</li><!-- #comment-## -->
+													<li class="review odd alt thread-odd thread-alt depth-1" id="li-comment-38">
+
+														<div id="comment-38" class="comment_container">
+
+															<img alt='' src='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=60&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=120&#038;d=mm&#038;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' decoding='async' />
+															<div class="comment-text">
+
+																<div class="star-rating" role="img" aria-label="Rated 5 out of 5"><span style="width:100%">Rated <strong class="rating">5</strong> out of 5</span></div>
+																<p class="meta">
+																	<strong class="woocommerce-review__author">Kenneth R. Myers </strong>
+																	<span class="woocommerce-review__dash">&ndash;</span> <time class="woocommerce-review__published-date" datetime="2022-02-15T03:11:41+00:00">February 15, 2022</time>
+																</p>
+
+																<div class="description">
+																	<p>The shirt was not the fabric I believed it to be. It says Classic Fit but was made like the older versions, not the soft cotton like my others. I don’t understand how the labels are the same but a completely different shirt. Oh well, stuck with it now.</p>
+																</div>
+															</div>
+														</div>
+													</li><!-- #comment-## -->
+													<li class="review even thread-even depth-1" id="li-comment-39">
+
+														<div id="comment-39" class="comment_container">
+
+															<img alt='' src='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=60&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=120&#038;d=mm&#038;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' decoding='async' />
+															<div class="comment-text">
+
+																<div class="star-rating" role="img" aria-label="Rated 4 out of 5"><span style="width:80%">Rated <strong class="rating">4</strong> out of 5</span></div>
+																<p class="meta">
+																	<strong class="woocommerce-review__author">Mike Addington </strong>
+																	<span class="woocommerce-review__dash">&ndash;</span> <time class="woocommerce-review__published-date" datetime="2022-02-15T03:11:42+00:00">February 15, 2022</time>
+																</p>
+
+																<div class="description">
+																	<p>Real authentic genuine quality however it fit me like an XL size when In fact Im L. Beware</p>
+																</div>
+															</div>
+														</div>
+													</li><!-- #comment-## -->
+													<li class="review odd alt thread-odd thread-alt depth-1" id="li-comment-40">
+
+														<div id="comment-40" class="comment_container">
+
+															<img alt='' src='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=60&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=120&#038;d=mm&#038;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' decoding='async' />
+															<div class="comment-text">
+
+																<div class="star-rating" role="img" aria-label="Rated 5 out of 5"><span style="width:100%">Rated <strong class="rating">5</strong> out of 5</span></div>
+																<p class="meta">
+																	<strong class="woocommerce-review__author">Ervin Arlington </strong>
+																	<span class="woocommerce-review__dash">&ndash;</span> <time class="woocommerce-review__published-date" datetime="2022-02-15T03:11:44+00:00">February 15, 2022</time>
+																</p>
+
+																<div class="description">
+																	<p>The Ralph Lauren quaility is here in abundance. My husband always says that the Lauren polos fit better and last longer than any other brand.I love the new &#8220;heathered&#8221; color and the price is always excellent through shop</p>
+																</div>
+															</div>
+														</div>
+													</li><!-- #comment-## -->
+													<li class="review even thread-even depth-1" id="li-comment-41">
+
+														<div id="comment-41" class="comment_container">
+
+															<img alt='' src='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=60&amp;d=mm&amp;r=g' srcset='https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=120&#038;d=mm&#038;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' decoding='async' />
+															<div class="comment-text">
+
+																<div class="star-rating" role="img" aria-label="Rated 3 out of 5"><span style="width:60%">Rated <strong class="rating">3</strong> out of 5</span></div>
+																<p class="meta">
+																	<strong class="woocommerce-review__author">Patrick M. Newman </strong>
+																	<span class="woocommerce-review__dash">&ndash;</span> <time class="woocommerce-review__published-date" datetime="2022-02-15T03:11:45+00:00">February 15, 2022</time>
+																</p>
+
+																<div class="description">
+																	<p>My son loved this Jacket for his Senior Prom&#8230; He got sooo many compliments! He is slim build 5’11 and 150lbs &#8230; I ordered a large &#8230; it was a little big &#8230; but it was fine!</p>
+																</div>
+															</div>
+														</div>
+													</li><!-- #comment-## -->
+												</ol>
+
+											</div>
+
+											<div id="review_form_wrapper">
+												<div id="review_form">
+													<div id="respond" class="comment-respond">
+														<span id="reply-title" class="comment-reply-title">Add a review <small><a rel="nofollow" id="cancel-comment-reply-link" href="index.html#respond" style="display:none;">Cancel reply</a></small></span><form action="https://demo2.pavothemes.com/bookory/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+															<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p><div class="comment-form-rating">
+																<label for="rating">Your rating&nbsp;<span class="required">*</span></label><select name="rating" id="rating" required>
+																	<option value="">Rate&hellip;</option>
+																	<option value="5">Perfect</option>
+																	<option value="4">Good</option>
+																	<option value="3">Average</option>
+																	<option value="2">Not that bad</option>
+																	<option value="1">Very poor</option>
+																</select>
+															</div><p class="comment-form-comment"><textarea id="comment" name="comment" cols="45" rows="8" required placeholder="Your review *"></textarea></p><p class="comment-form-author"><input id="author" name="author" type="text" value="" size="30" required placeholder="Name *" /></p>
+															<p class="comment-form-email"><input id="email" name="email" type="email" value="" size="30" required placeholder="Email *" /></p>
+															<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+															<p class="form-submit">
+																<input name="submit" type="submit" id="submit" class="submit" value="Submit" /> <input type='hidden' name='comment_post_ID' value='97' id='comment_post_ID' />
+																<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+															</p>
+														</form>
+													</div><!-- #respond -->
+												</div>
+											</div>
+
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+
+							<section class="related products">
+
+								<h2>Related products</h2>
+
+								<ul class="products columns-6">
+									@if (Model?.OtherBooks != null && Model.OtherBooks.Any())
+									{
+										@foreach (var book in Model.OtherBooks)
+										{
+											@Html.Partial("/views/shared/_bigbookcard.cshtml", book)
+										}
+									
+									}
+								</ul>
+
+							</section>
+						</div>
+
+
+
+					</main><!-- #main -->
+				</div><!-- #primary -->
+
+
+			</div><!-- .col-full -->
+		</div><!-- #content -->
+
+		<div class='footer-width-fixer'>
+			<div data-elementor-type="wp-post" data-elementor-id="751" class="elementor elementor-751">
+				<div class="elementor-section elementor-top-section elementor-element elementor-element-5c1c1fa elementor-section-content-middle elementor-section-stretched elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5c1c1fa" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="elementor-container elementor-column-gap-no">
+						<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-0feafc9" data-id="0feafc9" data-element_type="column">
+							<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-16cf748 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="16cf748" data-element_type="widget" data-widget_type="icon-box.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-icon-box-wrapper">
+
+											<div class="elementor-icon-box-icon">
+												<a href="../../index.html" class="elementor-icon elementor-animation-" tabindex="-1">
+													<i aria-hidden="true" class="bookory-icon- bookory-icon-home"></i>
+												</a>
+											</div>
+
+											<div class="elementor-icon-box-content">
+
+												<h3 class="elementor-icon-box-title">
+													<a href="../../index.html">
+														Shop
+													</a>
+												</h3>
+
+
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-9d90670" data-id="9d90670" data-element_type="column">
+							<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-62e085d elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="62e085d" data-element_type="widget" data-widget_type="icon-box.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-icon-box-wrapper">
+
+											<div class="elementor-icon-box-icon">
+												<a href="../../my-account/index.html" class="elementor-icon elementor-animation-" tabindex="-1">
+													<i aria-hidden="true" class="bookory-icon- bookory-icon-account"></i>
+												</a>
+											</div>
+
+											<div class="elementor-icon-box-content">
+
+												<h3 class="elementor-icon-box-title">
+													<a href="../../my-account/index.html">
+														Account
+													</a>
+												</h3>
+
+
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6ed0632" data-id="6ed0632" data-element_type="column">
+							<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-da94cbb elementor-widget elementor-widget-bookory-search" data-id="da94cbb" data-element_type="widget" data-widget_type="bookory-search.default">
+									<div class="elementor-widget-container">
+										<div class="site-header-search">
+											<a href="#" class="button-search-popup">
+												<i class="bookory-icon-search"></i>
+												<span class="content">Search</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-336d314" data-id="336d314" data-element_type="column">
+							<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2b02f7c elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="2b02f7c" data-element_type="widget" data-widget_type="icon-box.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-icon-box-wrapper">
+
+											<div class="elementor-icon-box-icon">
+												<a href="../../wishlist/index.html" class="elementor-icon elementor-animation-" tabindex="-1">
+													<i aria-hidden="true" class="far fa-heart"></i>
+												</a>
+											</div>
+
+											<div class="elementor-icon-box-content">
+
+												<h3 class="elementor-icon-box-title">
+													<a href="../../wishlist/index.html">
+														Wishlist
+													</a>
+												</h3>
+
+
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		<footer itemtype="https://schema.org/WPFooter" itemscope="itemscope" id="colophon" role="contentinfo">
+			<div class='footer-width-fixer'>
+				<div data-elementor-type="wp-post" data-elementor-id="329" class="elementor elementor-329">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-8c67d70 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8c67d70" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-09338ca" data-id="09338ca" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-dd4fd10 elementor-widget elementor-widget-site-logo" data-id="dd4fd10" data-element_type="widget" data-settings="{&quot;align&quot;:&quot;center&quot;,&quot;width&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;caption_space_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="site-logo.default">
+										<div class="elementor-widget-container">
+											<div class="hfe-site-logo">
+												<a data-elementor-open-lightbox="" class='elementor-clickable' href="https://demo2.pavothemes.com/bookory">
+													<div class="hfe-site-logo-set">
+														<div class="hfe-site-logo-container">
+															<img class="hfe-site-logo-img elementor-animation-" src="../../wp-content/uploads/2022/02/logo.svg" alt="logo" />
+														</div>
+													</div>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-597fc5e elementor-widget elementor-widget-text-editor" data-id="597fc5e" data-element_type="widget" data-widget_type="text-editor.default">
+										<div class="elementor-widget-container">
+											1418 River Drive, Suite 35<br> Cottonhall, CA 9622
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-868de12 button-style-bookory-yes elementor-widget elementor-widget-button" data-id="868de12" data-element_type="widget" data-widget_type="button.default">
+										<div class="elementor-widget-container">
+											<div class="elementor-button-wrapper">
+												<a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+													<span class="elementor-button-content-wrapper">
+														<span class="elementor-button-text">show on map</span>
+													</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-3057c08 elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3057c08" data-element_type="widget" data-widget_type="icon-list.default">
+										<div class="elementor-widget-container">
+											<ul class="elementor-icon-list-items elementor-inline-items">
+												<li class="elementor-icon-list-item elementor-inline-item">
+													<a href="https://www.facebook.com/">
+
+														<span class="elementor-icon-list-icon">
+															<i aria-hidden="true" class="bookory-icon- bookory-icon-facebook-f"></i>
+														</span>
+														<span class="elementor-icon-list-text"></span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item elementor-inline-item">
+													<a href="https://twitter.com/">
+
+														<span class="elementor-icon-list-icon">
+															<i aria-hidden="true" class="fab fa-twitter"></i>
+														</span>
+														<span class="elementor-icon-list-text"></span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item elementor-inline-item">
+													<a href="https://www.instagram.com/">
+
+														<span class="elementor-icon-list-icon">
+															<i aria-hidden="true" class="fab fa-instagram"></i>
+														</span>
+														<span class="elementor-icon-list-text"></span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item elementor-inline-item">
+													<a href="https://www.pinterest.com/">
+
+														<span class="elementor-icon-list-icon">
+															<i aria-hidden="true" class="fab fa-pinterest"></i>
+														</span>
+														<span class="elementor-icon-list-text"></span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-1fc25d4" data-id="1fc25d4" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-eaa5480 elementor-widget elementor-widget-heading" data-id="eaa5480" data-element_type="widget" data-widget_type="heading.default">
+										<div class="elementor-widget-container">
+											<h2 class="elementor-heading-title elementor-size-default">need help</h2>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-7c7cb18 elementor-widget elementor-widget-heading" data-id="7c7cb18" data-element_type="widget" data-widget_type="heading.default">
+										<div class="elementor-widget-container">
+											<h2 class="elementor-heading-title elementor-size-default">+(84) - 1800 - 4635</h2>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-2c606c0 elementor-widget elementor-widget-text-editor" data-id="2c606c0" data-element_type="widget" data-widget_type="text-editor.default">
+										<div class="elementor-widget-container">
+											<p>Monday – Friday: 9:00-20:00<br />Saturday: 11:00 – 15:00</p>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-296535d elementor-widget elementor-widget-heading" data-id="296535d" data-element_type="widget" data-widget_type="heading.default">
+										<div class="elementor-widget-container">
+											<h2 class="elementor-heading-title elementor-size-default"><a href="https://demo2.pavothemes.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="84e7ebeaf0e5e7f0c4e1fce5e9f4e8e1aae7ebe9">[email&#160;protected]</a></h2>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-b9645f5" data-id="b9645f5" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-ce775ca elementor-widget elementor-widget-heading" data-id="ce775ca" data-element_type="widget" data-widget_type="heading.default">
+										<div class="elementor-widget-container">
+											<h2 class="elementor-heading-title elementor-size-default">explore</h2>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-bd3910a elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="bd3910a" data-element_type="widget" data-widget_type="icon-list.default">
+										<div class="elementor-widget-container">
+											<ul class="elementor-icon-list-items">
+												<li class="elementor-icon-list-item">
+													<a href="../../about-us/index.html">
+
+														<span class="elementor-icon-list-text">About us</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="#">
+
+														<span class="elementor-icon-list-text">Sitemap</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="#">
+
+														<span class="elementor-icon-list-text"> Bookmarks </span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="../../my-account/index.html">
+
+														<span class="elementor-icon-list-text">Sign in/Join</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-c48775c" data-id="c48775c" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-dbb9ba4 elementor-widget elementor-widget-heading" data-id="dbb9ba4" data-element_type="widget" data-widget_type="heading.default">
+										<div class="elementor-widget-container">
+											<h2 class="elementor-heading-title elementor-size-default">Our Service</h2>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-8623ab1 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="8623ab1" data-element_type="widget" data-widget_type="icon-list.default">
+										<div class="elementor-widget-container">
+											<ul class="elementor-icon-list-items">
+												<li class="elementor-icon-list-item">
+													<a href="#">
+
+														<span class="elementor-icon-list-text">Help Center </span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="../../index640b.html?page_id=11&amp;preview=true">
+
+														<span class="elementor-icon-list-text">Returns</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="#">
+
+														<span class="elementor-icon-list-text">Product Recalls</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="#">
+
+														<span class="elementor-icon-list-text">Accessibility </span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="../../contact/index.html">
+
+														<span class="elementor-icon-list-text">Contact Us</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="#">
+
+														<span class="elementor-icon-list-text">Store Pickup</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-7da7578" data-id="7da7578" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-a2cd9cb elementor-widget elementor-widget-heading" data-id="a2cd9cb" data-element_type="widget" data-widget_type="heading.default">
+										<div class="elementor-widget-container">
+											<h2 class="elementor-heading-title elementor-size-default">Categories</h2>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-e620e02 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="e620e02" data-element_type="widget" data-widget_type="icon-list.default">
+										<div class="elementor-widget-container">
+											<ul class="elementor-icon-list-items">
+												<li class="elementor-icon-list-item">
+													<a href="../../product-category/action-adventure/index.html">
+
+														<span class="elementor-icon-list-text">Action</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="../../product-category/activity-books/index.html">
+
+														<span class="elementor-icon-list-text"> Comedy</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="../../product-category/anthologies/index.html">
+
+														<span class="elementor-icon-list-text">Drama </span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="../../product-category/arts-literature/index.html">
+
+														<span class="elementor-icon-list-text">Horror</span>
+													</a>
+												</li>
+												<li class="elementor-icon-list-item">
+													<a href="../../product-category/contemporary/index.html">
+
+														<span class="elementor-icon-list-text">Kids</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-ec0b2e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ec0b2e5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+							<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ee76e3e" data-id="ee76e3e" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-08d2019 elementor-widget elementor-widget-text-editor" data-id="08d2019" data-element_type="widget" data-widget_type="text-editor.default">
+										<div class="elementor-widget-container">
+											<div>Copyright © 2022 <a style="color: var(--primary);" href="../../index.html">Bookory</a>. All rights reserved.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-77cfab4" data-id="77cfab4" data-element_type="column">
+								<div class="elementor-widget-wrap elementor-element-populated">
+									<div class="elementor-element elementor-element-79a0236 elementor-widget elementor-widget-image" data-id="79a0236" data-element_type="widget" data-widget_type="image.default">
+										<div class="elementor-widget-container">
+											<img width="348" height="26" src="../../wp-content/uploads/2022/02/footer_img.png" class="attachment-full size-full wp-image-593" alt="" srcset="https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/footer_img.png 348w, https://demo2.pavothemes.com/bookory/wp-content/uploads/2022/02/footer_img-300x22.png 300w" sizes="(max-width: 348px) 100vw, 348px" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</footer>
+
+		<section class="bookory-sticky-add-to-cart">
+			<div class="col-full">
+				<div class="bookory-sticky-add-to-cart__content">
+					<img width="600" height="840" src="../../wp-content/uploads/2022/02/28.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" />                    <div class="bookory-sticky-add-to-cart__content-product-info">
+						<span class="bookory-sticky-add-to-cart__content-title">You&#039;re viewing:							<strong>@Model.MainBook.Title</strong></span>
+						<span class="bookory-sticky-add-to-cart__content-price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>95.91</bdi></span></span>
+						<div class="star-rating" role="img" aria-label="Rated 4.25 out of 5"><span style="width:85%">Rated <strong class="rating">4.25</strong> out of 5</span></div>
+					</div>
+					<a href="indexcebb.html?add-to-cart=97" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_97" data-quantity="1" class="bookory-sticky-add-to-cart__content-button button alt product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="97" data-product_sku="B85927643" aria-label="Add to cart: &ldquo;@Model.MainBook.Title&rdquo;" rel="nofollow" data-success_message="&ldquo;@Model.MainBook.Title&rdquo; has been added to your cart">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_97" class="screen-reader-text">
+					</span>
+				</div>
+			</div>
+		</section><!-- .bookory-sticky-add-to-cart -->
+
+	</div><!-- #page -->
+
+	<div class="account-wrap d-none">
+		<div class="account-inner ">
+			<div class="login-form-head">
+				<span class="login-form-title">Sign in</span>
+				<span class="pull-right">
+					<a class="register-link" href="../../my-account/index.html"
+					   title="Register">Create an Account</a>
+				</span>
+			</div>
+			<form class="bookory-login-form-ajax" data-toggle="validator">
+				<p>
+					<label>Username or email <span class="required">*</span></label>
+					<input name="username" type="text" required placeholder="Username">
+				</p>
+				<p>
+					<label>Password <span class="required">*</span></label>
+					<input name="password" type="password" required
+						   placeholder="Password">
+				</p>
+				<button type="submit" data-button-action
+						class="btn btn-primary btn-block w-100 mt-1">
+					Login
+				</button>
+				<input type="hidden" name="action" value="bookory_login">
+				<input type="hidden" id="security-login" name="security-login" value="d235c2a032" /><input type="hidden" name="_wp_http_referer" value="/bookory/product/a-crown-of-petals-and-ice/" />
+			</form>
+			<div class="login-form-bottom">
+				<a href="../../my-account/lost-password/index.html" class="lostpass-link"
+				   title="Lost your password?">Lost your password?</a>
+			</div>
+		</div>
+	</div>
+	<div class="bookory-mobile-nav">
+		<div class="menu-scroll-mobile">
+			<a href="#" class="mobile-nav-close"><i class="bookory-icon-times"></i></a>
+			<div class="mobile-nav-tabs">
+				<ul>
+
+					<li class="mobile-tab-title mobile-pages-title active" data-menu="pages">
+						<span>Main menu</span>
+					</li>
+					<li class="mobile-tab-title mobile-categories-title" data-menu="categories">
+						<span>Categories</span>
+					</li>
+				</ul>
+			</div>
+			<nav class="mobile-menu-tab mobile-navigation mobile-pages-menu active"
+				 aria-label="Mobile Navigation">
+				<div class="handheld-navigation">
+					<ul id="menu-main-menu" class="menu">
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-2842">
+							<a href="../../index.html">Home</a>
+							<ul class="sub-menu">
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-225"><a href="../../index.html"><span>01</span> &#8211; Home v1</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224"><a href="../../home-2/index.html"><span>02</span> &#8211; Home v2</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-223"><a href="../../home-3/index.html"><span>03</span> &#8211; Home v3</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-222"><a href="../../home-4/index.html"><span>04</span> &#8211; Home v4</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221"><a href="../../home-5/index.html"><span>05</span> &#8211; Home v5</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8249"><a href="../../home-6/index.html"><span>06</span> &#8211; Home v6</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8248"><a href="../../home-7/index.html"><span>07</span> &#8211; Home v7</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8247"><a href="../../home-8/index.html"><span>08</span> &#8211; Home v8</a></li>
+							</ul>
+						</li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children current_page_parent menu-item-3149">
+							<a href="../../shop/index.html">Shop</a>
+							<ul class="sub-menu">
+								<li id="menu-item-4523" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4523"><a href="../../shop/index3f9c.html?woocommerce_archive_layout=canvas&amp;woocommerce_catalog_columns=4">Shop &#8211; 4 Columns</a></li>
+								<li id="menu-item-4524" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4524"><a href="../../shop/index2e45.html?woocommerce_archive_layout=canvas&amp;woocommerce_catalog_columns=5">Shop &#8211; 5 Columns</a></li>
+								<li id="menu-item-4526" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4526"><a href="../../shop/index.html">Shop &#8211; Sidebar</a></li>
+								<li id="menu-item-4529" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4529"><a href="../../product-category/cultural/indexef01.html?layout=list">Shop &#8211; Listview</a></li>
+								<li id="menu-item-4527" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4527"><a href="../../product-category/action-adventure/index.html">Shop &#8211; Categories Style 01</a></li>
+								<li id="menu-item-4528" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4528"><a href="../../product-category/activity-books/index.html">Shop &#8211; Categories Style 02</a></li>
+							</ul>
+						</li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7578">
+							<a href="../../store-listing/index.html">Vendor</a>
+							<ul class="sub-menu">
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7579"><a href="../../store-listing/index.html">Dokan &#8211; Storelist</a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8438"><a href="../../store/barone/index.html">Dokan &#8211; Vendor Store</a></li>
+							</ul>
+						</li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1191">
+							<a href="#">Pages</a>
+							<ul class="sub-menu">
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5751"><a href="../../all-authors/index.html">All Authors</a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6157"><a href="../../book-author/enrique-wallace/index.html">Author Profile</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3154"><a href="../../about-us/index.html">About Us</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3156"><a href="../../faq/index.html">FAQs</a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6218"><a href="../../404.html">404 page</a></li>
+							</ul>
+						</li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-226">
+							<a href="../../blog-list/index.html">Blog</a>
+							<ul class="sub-menu">
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4803"><a href="../../blog-list/index.html">Blog Standard</a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4804"><a href="../../blog-list/index81f0.html?blog_style=style-1&amp;sidebar-blog=0&amp;blog_columns=3">Blog Grid</a></li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4805"><a href="../../top-10-books-to-make-it-a-great-year/index.html">Single Blog</a></li>
+							</ul>
+						</li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3150"><a href="../../contact/index.html">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<nav class="mobile-menu-tab mobile-navigation-categories mobile-categories-menu"
+				 aria-label="Mobile Navigation">
+				<div class="handheld-navigation">
+					<ul id="menu-categories" class="menu">
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2903"><a href="../../product-category/action-adventure/index.html">Action &#038; Adventure</a></li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2904"><a href="../../product-category/activity-books/index.html">Americas</a></li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2905"><a href="../../product-category/animals/index.html">Arts &#038; Photography</a></li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3118"><a href="../../product-category/anthologies/index.html">Biographies</a></li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3120"><a href="../../product-category/arts-literature/index.html">Children&#8217;s Books</a></li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3121"><a href="../../product-category/cars-trucks/index.html">Classics</a></li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3122"><a href="../../product-category/classics/index.html">Contemporary</a></li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3130"><a href="../../product-category/contemporary/index.html">Education &#038; Reference</a></li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3131"><a href="../../product-category/cultural/index.html">Genre Fiction</a></li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3132"><a href="../../product-category/european/index.html">Historical</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<div class="bookory-overlay"></div>
+
+	<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script>
+		window.RS_MODULES = window.RS_MODULES || {};
+		window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+		window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+		window.RS_MODULES.defered = true;
+		window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+		window.RS_MODULES.type = 'compiled';
+	</script>
+	<div class="site-search-popup">
+		<div class="site-search-popup-wrap">
+			<div class="site-search ajax-search">
+				<div class="widget woocommerce widget_product_search">
+					<div class="ajax-search-result d-none"></div>
+					<form role="search" method="get" class="woocommerce-product-search" action="https://demo2.pavothemes.com/bookory/">
+						<label class="screen-reader-text" for="woocommerce-product-search-field-2">Search for:</label>
+						<input type="search" id="woocommerce-product-search-field-2" class="search-field" placeholder="Search products&hellip;" autocomplete="off" value="" name="s" />
+						<button type="submit" value="Search">Search</button>
+						<input type="hidden" name="post_type" value="product" />
+						<div class="search-by-category input-dropdown">
+							<div class="input-dropdown-inner bookory-scroll-content">
+								<!--                    <input type="hidden" name="product_cat" value="0">-->
+								<a href="#" data-val="0"><span>All category</span></a>
+								<select name='product_cat' id='product_cat0' class='dropdown_product_cat_ajax'>
+									<option value='' selected='selected'>All category</option>
+									<option class="level-0" value="action-adventure">Action &amp; Adventure</option>
+									<option class="level-0" value="activity-books">Activity Books</option>
+									<option class="level-0" value="animals">Animals</option>
+									<option class="level-0" value="anthologies">Anthologies</option>
+									<option class="level-0" value="arts-literature">Arts &amp; Literature</option>
+									<option class="level-0" value="cars-trucks">Cars &amp; Trucks</option>
+									<option class="level-0" value="classics">Classics</option>
+									<option class="level-0" value="contemporary">Contemporary</option>
+									<option class="level-0" value="cultural">Cultural</option>
+									<option class="level-0" value="european">European</option>
+									<option class="level-0" value="foreign-language">Foreign Language</option>
+									<option class="level-0" value="genre-fiction">Genre Fiction</option>
+									<option class="level-0" value="historical">Historical</option>
+									<option class="level-0" value="uncategorized">Uncategorized</option>
+								</select>
+								<div class="list-wrapper bookory-scroll">
+									<ul class="bookory-scroll-content">
+										<li class="d-none">
+											<a href="#" data-val="0">All category</a>
+										</li>
+										<li class="cat-item cat-item-29">
+											<a class="pf-value" href="../../product-category/action-adventure/index.html" data-val="action-adventure" data-title="Action &amp; Adventure">Action &amp; Adventure</a>
+										</li>
+										<li class="cat-item cat-item-30">
+											<a class="pf-value" href="../../product-category/activity-books/index.html" data-val="activity-books" data-title="Activity Books">Activity Books</a>
+										</li>
+										<li class="cat-item cat-item-31">
+											<a class="pf-value" href="../../product-category/animals/index.html" data-val="animals" data-title="Animals">Animals</a>
+										</li>
+										<li class="cat-item cat-item-24">
+											<a class="pf-value" href="../../product-category/anthologies/index.html" data-val="anthologies" data-title="Anthologies">Anthologies</a>
+										</li>
+										<li class="cat-item cat-item-20">
+											<a class="pf-value" href="../../product-category/arts-literature/index.html" data-val="arts-literature" data-title="Arts &amp; Literature">Arts &amp; Literature</a>
+										</li>
+										<li class="cat-item cat-item-32">
+											<a class="pf-value" href="../../product-category/cars-trucks/index.html" data-val="cars-trucks" data-title="Cars &amp; Trucks">Cars &amp; Trucks</a>
+										</li>
+										<li class="cat-item cat-item-25">
+											<a class="pf-value" href="../../product-category/classics/index.html" data-val="classics" data-title="Classics">Classics</a>
+										</li>
+										<li class="cat-item cat-item-26">
+											<a class="pf-value" href="../../product-category/contemporary/index.html" data-val="contemporary" data-title="Contemporary">Contemporary</a>
+										</li>
+										<li class="cat-item cat-item-21">
+											<a class="pf-value" href="../../product-category/cultural/index.html" data-val="cultural" data-title="Cultural">Cultural</a>
+										</li>
+										<li class="cat-item cat-item-22">
+											<a class="pf-value" href="../../product-category/european/index.html" data-val="european" data-title="European">European</a>
+										</li>
+										<li class="cat-item cat-item-27">
+											<a class="pf-value" href="../../product-category/foreign-language/index.html" data-val="foreign-language" data-title="Foreign Language">Foreign Language</a>
+										</li>
+										<li class="cat-item cat-item-28">
+											<a class="pf-value" href="../../product-category/genre-fiction/index.html" data-val="genre-fiction" data-title="Genre Fiction">Genre Fiction</a>
+										</li>
+										<li class="cat-item cat-item-23">
+											<a class="pf-value" href="../../product-category/historical/index.html" data-val="historical" data-title="Historical">Historical</a>
+										</li>
+										<li class="cat-item cat-item-15">
+											<a class="pf-value" href="../../product-category/uncategorized/index.html" data-val="uncategorized" data-title="Uncategorized">Uncategorized</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<a href="#" class="site-search-popup-close">
+				<svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="23.691" height="22.723" viewBox="0 0 23.691 22.723">
+					<g transform="translate(-126.154 -143.139)">
+						<line x2="23" y2="22" transform="translate(126.5 143.5)" fill="none" stroke="CurrentColor" stroke-width="1"></line>
+						<path d="M0,22,23,0" transform="translate(126.5 143.5)" fill="none" stroke="CurrentColor" stroke-width="1"></path>
+					</g>
+				</svg>
+			</a>
+		</div>
+	</div>
+	<div id="woosw_wishlist" class="woosw-popup woosw-popup-center"></div>
+	<script type="text/html" id="tmpl-ajax-live-search-template">
+		<div class="product-item-search">
+			<# if(data.url){ #>
+			<a class="product-link" href="{{{data.url}}}" title="{{{data.title}}}">
+			<# } #>
+				<# if(data.img){#>
+				<img src="{{{data.img}}}" alt="{{{data.title}}}">
+				 <# } #>
+				<div class="product-content">
+				<h3 class="product-title">{{{data.title}}}</h3>
+				<# if(data.price){ #>
+				{{{data.price}}}
+				 <# } #>
+				</div>
+				<# if(data.url){ #>
+			</a>
+			<# } #>
+		</div>
+	</script>
+	<script type="application/ld+json">{"context":"https:\/\/schema.org\/","graph":[{"context":"https:\/\/schema.org\/","type":"BreadcrumbList","itemListElement":[{"type":"ListItem","position":1,"item":{"name":"Home","id":"https:\/\/demo2.pavothemes.com\/bookory"}},{"type":"ListItem","position":2,"item":{"name":"Cultural","id":"https:\/\/demo2.pavothemes.com\/bookory\/product-category\/cultural\/"}},{"type":"ListItem","position":3,"item":{"name":"@Model.MainBook.Title","id":"https:\/\/demo2.pavothemes.com\/bookory\/product\/a-crown-of-petals-and-ice\/"}}]},{"context":"https:\/\/schema.org\/","type":"Product","id":"https:\/\/demo2.pavothemes.com\/bookory\/product\/a-crown-of-petals-and-ice\/#product","name":"@Model.MainBook.Title","url":"https:\/\/demo2.pavothemes.com\/bookory\/product\/a-crown-of-petals-and-ice\/","description":"Cum ad et sint ut neque molestias. Illo possimus eos quas alias. Recusandae omnis fugiat sequi. Nesciunt rem perferendis consectetur rerum dolores.","image":"https:\/\/demo2.pavothemes.com\/bookory\/wp-content\/uploads\/2022\/02\/28.jpg","sku":"B85927643","offers":[{"type":"Offer","priceSpecification":[{"type":"UnitPriceSpecification","price":"95.91","priceCurrency":"USD","valueAddedTaxIncluded":false,"validThrough":"2026-12-31"}],"priceValidUntil":"2026-12-31","availability":"http:\/\/schema.org\/InStock","url":"https:\/\/demo2.pavothemes.com\/bookory\/product\/a-crown-of-petals-and-ice\/","seller":{"type":"Organization","name":"Bookory","url":"https:\/\/demo2.pavothemes.com\/bookory"}}],"aggregateRating":{"type":"AggregateRating","ratingValue":"4.25","reviewCount":5},"review":[{"type":"Review","reviewRating":{"type":"Rating","bestRating":"5","ratingValue":"3","worstRating":"1"},"author":{"type":"Person","name":"Patrick M. Newman"},"reviewBody":"My son loved this Jacket for his Senior Prom... He got sooo many compliments! He is slim build 5\u201911 and 150lbs ... I ordered a large ... it was a little big ... but it was fine!","datePublished":"2022-02-15T03:11:45+00:00"},{"type":"Review","reviewRating":{"type":"Rating","bestRating":"5","ratingValue":"5","worstRating":"1"},"author":{"type":"Person","name":"Ervin Arlington"},"reviewBody":"The Ralph Lauren quaility is here in abundance. My husband always says that the Lauren polos fit better and last longer than any other brand.I love the new \"heathered\" color and the price is always excellent through shop","datePublished":"2022-02-15T03:11:44+00:00"},{"type":"Review","reviewRating":{"type":"Rating","bestRating":"5","ratingValue":"4","worstRating":"1"},"author":{"type":"Person","name":"Mike Addington"},"reviewBody":"Real authentic genuine quality however it fit me like an XL size when In fact Im L. Beware","datePublished":"2022-02-15T03:11:42+00:00"},{"type":"Review","reviewRating":{"type":"Rating","bestRating":"5","ratingValue":"5","worstRating":"1"},"author":{"type":"Person","name":"Kenneth R. Myers"},"reviewBody":"The shirt was not the fabric I believed it to be. It says Classic Fit but was made like the older versions, not the soft cotton like my others. I don\u2019t understand how the labels are the same but a completely different shirt. Oh well, stuck with it now.","datePublished":"2022-02-15T03:11:41+00:00"},{"type":"Review","reviewRating":{"type":"Rating","bestRating":"5","ratingValue":"3","worstRating":"1"},"author":{"type":"Person","name":"Join Hiddleston"},"reviewBody":"I am 6 feet tall and 220 lbs. This shirt fit me perfectly in the chest and shoulders. My only complaint is that it is so long! I like to wear polo shirts untucked. This shirt goes completely past my rear end. If I wore it with ordinary shorts, you probably wouldnt be able to see the shorts at all - completely hidden by the shirt. It needs to be 4 to 5 inches shorter in terms of length to suit me. I have many RL polo shirts, and this one is by far the longest. I dont understand why.","datePublished":"2022-02-15T03:11:40+00:00"}]}]}</script>
+	<script type='text/javascript'>
+		const lazyloadRunObserver = () => {
+			const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+			const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+				entries.forEach( ( entry ) => {
+					if ( entry.isIntersecting ) {
+						let lazyloadBackground = entry.target;
+						if( lazyloadBackground ) {
+							lazyloadBackground.classList.add( 'e-lazyloaded' );
+						}
+						lazyloadBackgroundObserver.unobserve( entry.target );
+					}
+				});
+			}, { rootMargin: '200px 0px 200px 0px' } );
+			lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+				lazyloadBackgroundObserver.observe( lazyloadBackground );
+			} );
+		};
+		const events = [
+			'DOMContentLoaded',
+			'elementor/lazyload/observe',
+		];
+		events.forEach( ( event ) => {
+			document.addEventListener( event, lazyloadRunObserver );
+		} );
+	</script>
+
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="pswp__bg"></div>
+		<div class="pswp__scroll-wrap">
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+			<div class="pswp__ui pswp__ui--hidden">
+				<div class="pswp__top-bar">
+					<div class="pswp__counter"></div>
+					<button class="pswp__button pswp__button--close" aria-label="Close (Esc)"></button>
+					<button class="pswp__button pswp__button--share" aria-label="Share"></button>
+					<button class="pswp__button pswp__button--fs" aria-label="Toggle fullscreen"></button>
+					<button class="pswp__button pswp__button--zoom" aria-label="Zoom in/out"></button>
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+					<div class="pswp__share-tooltip"></div>
+				</div>
+				<button class="pswp__button pswp__button--arrow--left" aria-label="Previous (arrow left)"></button>
+				<button class="pswp__button pswp__button--arrow--right" aria-label="Next (arrow right)"></button>
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<div class="site-header-cart-side">
+		<div class="cart-side-heading">
+			<span class="cart-side-title">Shopping cart</span>
+			<a href="#" class="close-cart-side">close</a>
+		</div>
+		<div class="widget woocommerce widget_shopping_cart"><div class="widget_shopping_cart_content"></div></div>
+	</div>
+	<div class="cart-side-overlay"></div>
+	<link rel='stylesheet' id='wc-blocks-style-css' href='../../wp-content/plugins/woocommerce/assets/client/blocks/wc-blocksfbdf.css?ver=wc-9.5.1' media='all' />
+	<link rel='stylesheet' id='widget-icon-list-css' href='../../wp-content/uploads/elementor/css/custom-widget-icon-list.min2420.css?ver=1742270149' media='all' />
+	<link rel='stylesheet' id='e-animation-shrink-css' href='../../wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min42e3.css?ver=3.26.0' media='all' />
+	<link rel='stylesheet' id='widget-social-icons-css' href='../../wp-content/plugins/elementor/assets/css/widget-social-icons.min42e3.css?ver=3.26.0' media='all' />
+	<link rel='stylesheet' id='e-apple-webkit-css' href='../../wp-content/uploads/elementor/css/custom-apple-webkit.min2420.css?ver=1742270149' media='all' />
+	<link rel='stylesheet' id='elementor-post-3161-css' href='../../wp-content/uploads/elementor/css/post-3161206e.css?ver=1742270152' media='all' />
+	<link rel='stylesheet' id='widget-heading-css' href='../../wp-content/plugins/elementor/assets/css/widget-heading.min42e3.css?ver=3.26.0' media='all' />
+	<link rel='stylesheet' id='widget-icon-box-css' href='../../wp-content/uploads/elementor/css/custom-widget-icon-box.min2420.css?ver=1742270149' media='all' />
+	<link rel='stylesheet' id='widget-text-editor-css' href='../../wp-content/plugins/elementor/assets/css/widget-text-editor.min42e3.css?ver=3.26.0' media='all' />
+	<link rel='stylesheet' id='widget-image-css' href='../../wp-content/plugins/elementor/assets/css/widget-image.min42e3.css?ver=3.26.0' media='all' />
+	<link rel='stylesheet' id='rs-plugin-settings-css' href='../../wp-content/plugins/revslider/sr6/assets/css/rs6efd5.css?ver=6.7.18' media='all' />
+	<style id='rs-plugin-settings-inline-css'>
+		#rs-demo-id {
+		}
+	</style>
+	<script src="../../wp-content/plugins/contact-form-7/includes/swv/js/index37ad.js?ver=6.0.1" id="swv-js"></script>
+	<script id="contact-form-7-js-before">
+		var wpcf7 = {
+			"api": {
+				"root": "https:\/\/demo2.pavothemes.com\/bookory\/wp-json\/",
+				"namespace": "contact-form-7\/v1"
+			}
+		};
+	</script>
+	<script src="../../wp-content/plugins/contact-form-7/includes/js/index37ad.js?ver=6.0.1" id="contact-form-7-js"></script>
+	<script src="../../wp-content/plugins/revslider/sr6/assets/js/rbtools.minefd5.js?ver=6.7.18" defer async id="tp-tools-js"></script>
+	<script src="../../wp-content/plugins/revslider/sr6/assets/js/rs6.minefd5.js?ver=6.7.18" defer async id="revmin-js"></script>
+	<script id="wp-api-request-js-extra">
+		var wpApiSettings = {"root":"https:\/\/demo2.pavothemes.com\/bookory\/wp-json\/","nonce":"6032e92fc1","versionString":"wp\/v2\/"};
+	</script>
+	<script src="../../wp-includes/js/api-request.mind1c0.js?ver=6.7.2" id="wp-api-request-js"></script>
+	<script src="../../wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0" id="wp-polyfill-js"></script>
+	<script src="../../wp-includes/js/dist/url.min9481.js?ver=e87eb76272a3a08402d2" id="wp-url-js"></script>
+	<script src="../../wp-includes/js/dist/api-fetch.min53e9.js?ver=d387b816bc1ed2042e28" id="wp-api-fetch-js"></script>
+	<script id="wp-api-fetch-js-after">
+		wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "../../wp-json/index.html" ) );
+		wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "6032e92fc1" );
+		wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+		wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+		wp.apiFetch.nonceEndpoint = "../../wp-admin/admin-ajaxf809.html?action=rest-nonce";
+	</script>
+	<script id="woo-variation-swatches-js-extra">
+		var woo_variation_swatches_options = {"show_variation_label":"1","clear_on_reselect":"","variation_label_separator":":","is_mobile":"","show_variation_stock":"","stock_label_threshold":"5","cart_redirect_after_add":"no","enable_ajax_add_to_cart":"yes","cart_url":"https:\/\/demo2.pavothemes.com\/bookory\/cart\/","is_cart":""};
+	</script>
+	<script src="../../wp-content/plugins/woo-variation-swatches/assets/js/frontend.min63ce.js?ver=1732076616" id="woo-variation-swatches-js"></script>
+	<script src="../../wp-content/plugins/woo-smart-wishlist/assets/libs/perfect-scrollbar/js/perfect-scrollbar.jquery.min1845.js?ver=4.9.6" id="perfect-scrollbar-js"></script>
+	<script id="woosw-frontend-js-extra">
+		var woosw_vars = {"wc_ajax_url":"\/bookory\/?wc-ajax=%%endpoint%%","nonce":"9091c27f02","added_to_cart":"no","auto_remove":"no","page_myaccount":"yes","menu_action":"open_page","reload_count":"no","perfect_scrollbar":"yes","wishlist_url":"https:\/\/demo2.pavothemes.com\/bookory\/wishlist\/","button_action":"list","message_position":"right-top","button_action_added":"popup","empty_confirm":"This action cannot be undone. Are you sure?","delete_confirm":"This action cannot be undone. Are you sure?","copied_text":"Copied the wishlist link:","menu_text":"Wishlist","button_text":"Add to wishlist","button_text_added":"Browse wishlist","button_normal_icon":"woosw-icon-5","button_added_icon":"woosw-icon-8","button_loading_icon":"woosw-icon-4"};
+	</script>
+	<script src="../../wp-content/plugins/woo-smart-wishlist/assets/js/frontend1845.js?ver=4.9.6" id="woosw-frontend-js"></script>
+	<script id="bookory-theme-js-extra">
+		var bookoryAjax = {"ajaxurl":"https:\/\/demo2.pavothemes.com\/bookory\/wp-admin\/admin-ajax.php"};
+	</script>
+	<script src="../../wp-content/themes/bookory/assets/js/frontend/main3601.js?ver=2.2.0" id="bookory-theme-js"></script>
+	<script src="../../wp-includes/js/imagesloaded.minbb93.js?ver=5.0.0" id="imagesloaded-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/skip-link-focus-fix.min08e0.js?ver=20130115" id="bookory-skip-link-focus-fix-js"></script>
+	<script src="../../wp-includes/js/comment-reply.mind1c0.js?ver=6.7.2" id="comment-reply-js" async data-wp-strategy="async"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/frontend/search-popup3601.js?ver=2.2.0" id="bookory-search-popup-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/frontend/text-editor3601.js?ver=2.2.0" id="bookory-text-editor-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/frontend/nav-mobile3601.js?ver=2.2.0" id="bookory-nav-mobile-js"></script>
+	<script src="../../wp-content/themes/bookory/inc/megamenu/assets/js/frontend3601.js?ver=2.2.0" id="bookory-megamenu-frontend-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/frontend/login3601.js?ver=2.2.0" id="bookory-ajax-login-js"></script>
+	<script id="wc-add-to-cart-variation-js-extra">
+		var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/bookory\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination.","i18n_reset_alert_text":"Your selection has been reset. Please select some product options before adding this product to your cart.","woo_variation_swatches_ajax_variation_threshold_min":"30","woo_variation_swatches_ajax_variation_threshold_max":"100","woo_variation_swatches_total_children":{}};
+	</script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min0c46.js?ver=9.5.1" id="wc-add-to-cart-variation-js" data-wp-strategy="defer"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/vendor/slick.min3601.js?ver=2.2.0" id="slick-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/vendor/jquery.magnific-popup.min3601.js?ver=2.2.0" id="magnific-popup-js"></script>
+	<script id="woosq-frontend-js-extra">
+		var woosq_vars = {"wc_ajax_url":"\/bookory\/?wc-ajax=%%endpoint%%","nonce":"16bcb96552","view":"popup","effect":"mfp-3d-unfold","scrollbar":"yes","auto_close":"yes","hashchange":"no","cart_redirect":"no","cart_url":"https:\/\/demo2.pavothemes.com\/bookory\/cart\/","close":"Close (Esc)","next_prev":"yes","next":"Next (Right arrow key)","prev":"Previous (Left arrow key)","thumbnails_effect":"no","related_slick_params":"{\"slidesToShow\":2,\"slidesToScroll\":2,\"dots\":true,\"arrows\":false,\"adaptiveHeight\":true,\"rtl\":false}","thumbnails_slick_params":"{\"slidesToShow\":1,\"slidesToScroll\":1,\"dots\":true,\"arrows\":true,\"adaptiveHeight\":false,\"rtl\":false}","thumbnails_zoom_params":"{\"duration\":120,\"magnify\":1}","quick_view":"0"};
+	</script>
+	<script src="../../wp-content/plugins/woo-smart-quick-view/assets/js/frontendeda1.js?ver=4.1.4" id="woosq-frontend-js"></script>
+	<script src="../../wp-includes/js/jquery/ui/core.minb37e.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+	<script src="../../wp-includes/js/jquery/ui/mouse.minb37e.js?ver=1.13.3" id="jquery-ui-mouse-js"></script>
+	<script src="../../wp-includes/js/jquery/ui/sortable.minb37e.js?ver=1.13.3" id="jquery-ui-sortable-js"></script>
+	<script src="../../wp-includes/js/jquery/ui/datepicker.minb37e.js?ver=1.13.3" id="jquery-ui-datepicker-js"></script>
+	<script id="jquery-ui-datepicker-js-after">
+		jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+	</script>
+	<script src="../../wp-content/plugins/dokan-lite/assets/vendors/tooltips/tooltips9dd7.js?ver=3.14.3" id="dokan-tooltip-js"></script>
+	<script id="dokan-form-validate-js-extra">
+		var DokanValidateMsg = {"required":"This field is required","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","creditcard":"Please enter a valid credit card number.","equalTo":"Please enter the same value again.","maxlength_msg":"Please enter no more than {0} characters.","minlength_msg":"Please enter at least {0} characters.","rangelength_msg":"Please enter a value between {0} and {1} characters long.","range_msg":"Please enter a value between {0} and {1}.","max_msg":"Please enter a value less than or equal to {0}.","min_msg":"Please enter a value greater than or equal to {0}."};
+	</script>
+	<script src="../../wp-content/plugins/dokan-lite/assets/vendors/form-validate/form-validate9dd7.js?ver=3.14.3" id="dokan-form-validate-js"></script>
+	<script src="../../wp-content/plugins/dokan-lite/assets/vendors/speakingurl/speakingurl.min9dd7.js?ver=3.14.3" id="speaking-url-js"></script>
+	<script src="../../wp-includes/js/imgareaselect/jquery.imgareaselect.mind1c0.js?ver=6.7.2" id="imgareaselect-js"></script>
+	<script src="../../wp-includes/js/customize-base.mind1c0.js?ver=6.7.2" id="customize-base-js"></script>
+	<script src="../../wp-includes/js/backbone.minaff7.js?ver=1.6.0" id="backbone-js"></script>
+	<script src="../../wp-includes/js/customize-models9dd7.js?ver=3.14.3" id="customize-model-js"></script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/jquery-tiptip/jquery.tipTip.min9dd7.js?ver=3.14.3" id="jquery-tiptip-js"></script>
+	<script src="../../wp-content/plugins/dokan-lite/assets/vendors/date-range-picker/daterangepicker.min9dd7.js?ver=3.14.3" id="dokan-date-range-picker-js"></script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/accounting/accounting.min9dd7.js?ver=3.14.3" id="dokan-accounting-js"></script>
+	<script src="../../wp-content/plugins/dokan-lite/assets/js/dokan40de.js?ver=1733554650" id="dokan-script-js"></script>
+	<script src="../../wp-content/plugins/dokan-lite/assets/vendors/select2/select2.full.min9dd7.js?ver=3.14.3" id="dokan-select2-js-js"></script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min0c46.js?ver=9.5.1" id="sourcebuster-js-js"></script>
+	<script id="wc-order-attribution-js-extra">
+		var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/demo2.pavothemes.com\/bookory\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+	</script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min0c46.js?ver=9.5.1" id="wc-order-attribution-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/woocommerce/header-cart.min3601.js?ver=2.2.0" id="bookory-header-cart-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/tooltipster.bundle3601.js?ver=2.2.0" id="tooltipster-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/woocommerce/product-ajax-search.min3601.js?ver=2.2.0" id="bookory-products-ajax-search-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/woocommerce/main.min3601.js?ver=2.2.0" id="bookory-products-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/woocommerce/quantity.min3601.js?ver=2.2.0" id="bookory-input-quantity-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/woocommerce/off-canvas.min3601.js?ver=2.2.0" id="bookory-off-canvas-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/woocommerce/cart-canvas.min3601.js?ver=2.2.0" id="bookory-cart-canvas-js"></script>
+	<script id="bookory-sticky-add-to-cart-js-extra">
+		var bookory_sticky_add_to_cart_params = {"trigger_class":"entry-summary"};
+	</script>
+	<script src="../../wp-content/themes/bookory/assets/js/sticky-add-to-cart.min3601.js?ver=2.2.0" id="bookory-sticky-add-to-cart-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/frontend/countdown3601.js?ver=2.2.0" id="bookory-countdown-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/vendor/spritespin3601.js?ver=2.2.0" id="spritespin-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/vendor/jquery.sticky-kit.min3601.js?ver=2.2.0" id="sticky-kit-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/woocommerce/single.min3601.js?ver=2.2.0" id="bookory-single-product-js"></script>
+	<script src="../../wp-content/plugins/elementor/assets/js/webpack.runtime.min42e3.js?ver=3.26.0" id="elementor-webpack-runtime-js"></script>
+	<script src="../../wp-content/plugins/elementor/assets/js/frontend-modules.min42e3.js?ver=3.26.0" id="elementor-frontend-modules-js"></script>
+	<script id="elementor-frontend-js-before">
+		var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":true},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":true},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":true},"version":"3.26.0","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"e_swiper_latest":true,"e_nested_atomic_repeaters":true,"e_onboarding":true,"e_css_smooth_scroll":true,"home_screen":true,"landing-pages":true,"nested-elements":true,"editor_v2":true,"e_element_cache":true,"link-in-bio":true,"floating-buttons":true},"urls":{"assets":"https:\/\/demo2.pavothemes.com\/bookory\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/demo2.pavothemes.com\/bookory\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/demo2.pavothemes.com\/bookory\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"9036afa3b6"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_mobile_extra","viewport_tablet","viewport_tablet_extra","viewport_laptop"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":97,"title":"A%20Crown%20of%20Petals%20and%20Ice%20%E2%80%93%20Bookory","excerpt":"Cum ad et sint ut neque molestias. Illo possimus eos quas alias. Recusandae omnis fugiat sequi. Nesciunt rem perferendis consectetur rerum dolores.","featuredImage":"https:\/\/demo2.pavothemes.com\/bookory\/wp-content\/uploads\/2022\/02\/28.jpg"}};
+	</script>
+	<script src="../../wp-content/plugins/elementor/assets/js/frontend.min42e3.js?ver=3.26.0" id="elementor-frontend-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/elementor-frontend3601.js?ver=2.2.0" id="bookory-elementor-frontend-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/vendor/jquery.sticky3601.js?ver=2.2.0" id="elementor-sticky-js"></script>
+	<script src="../../wp-content/themes/bookory/assets/js/vendor/sticky3601.js?ver=2.2.0" id="bookory-elementor-sticky-js"></script>
+	<script id="dokan-page-views-js-extra">
+		var dokanPageViewsParams = {"nonce":"9d1af25a40","post_id":"97","ajax_url":"https:\/\/demo2.pavothemes.com\/bookory\/wp-admin\/admin-ajax.php"};
+	</script>
+	<script src="../../wp-content/plugins/dokan-lite/assets/js/page-views9dd7.js?ver=3.14.3" id="dokan-page-views-js"></script>
+	<script id="wc-cart-fragments-js-extra">
+		var wc_cart_fragments_params = {"ajax_url":"\/bookory\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/bookory\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_25bf477041ebcabc59c1609869ba66ee","fragment_name":"wc_fragments_25bf477041ebcabc59c1609869ba66ee","request_timeout":"5000"};
+	</script>
+	<script src="../../wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min0c46.js?ver=9.5.1" id="wc-cart-fragments-js" defer data-wp-strategy="defer"></script>
+</body>
+
+<!-- Mirrored from demo2.pavothemes.com/bookory/product/a-crown-of-petals-and-ice/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 08 Jun 2025 09:52:23 GMT -->
+</html>

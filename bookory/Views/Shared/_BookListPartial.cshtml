@@ -1,0 +1,8 @@
+﻿@model List<bookory.Models.Book>
+
+<ul class="bookory-products products columns-3" id="books-container">
+    @foreach (var book in Model)
+    {
+        @Html.Partial("/views/shared/_bigbookcard.cshtml", book)
+    }
+</ul>

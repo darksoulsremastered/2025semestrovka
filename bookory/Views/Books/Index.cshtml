@@ -1,0 +1,15 @@
+﻿@model List<bookory.Models.Book>
+
+<h1>All books</h1>
+<a href="/Books/Create">Add New Book</a>
+
+<ul>
+    @foreach (var book in Model)
+    {
+        <li>
+            <strong>@book.Title</strong><br />
+            <img src="@book.CoverUrl" width="100" /><br />
+            
+        </li>
+    }
+</ul>

@@ -1,0 +1,236 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\My Web Sites\\bookory mvc\\bookory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|c:\\my web sites\\bookory mvc\\bookory\\bookory\\views\\shared\\_genresmall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|solutionrelative:bookory\\views\\shared\\_genresmall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|c:\\my web sites\\bookory mvc\\bookory\\bookory\\views\\shared\\_booklistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|solutionrelative:bookory\\views\\shared\\_booklistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|c:\\my web sites\\bookory mvc\\bookory\\bookory\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|solutionrelative:bookory\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|c:\\my web sites\\bookory mvc\\bookory\\bookory\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|solutionrelative:bookory\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|c:\\my web sites\\bookory mvc\\bookory\\bookory\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|solutionrelative:bookory\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|c:\\my web sites\\bookory mvc\\bookory\\bookory\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|solutionrelative:bookory\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|c:\\my web sites\\bookory mvc\\bookory\\bookory\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|solutionrelative:bookory\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|c:\\my web sites\\bookory mvc\\bookory\\bookory\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|solutionrelative:bookory\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|c:\\my web sites\\bookory mvc\\bookory\\bookory\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|solutionrelative:bookory\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|c:\\my web sites\\bookory mvc\\bookory\\bookory\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|solutionrelative:bookory\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|c:\\my web sites\\bookory mvc\\bookory\\bookory\\views\\shared\\_bigbookcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|solutionrelative:bookory\\views\\shared\\_bigbookcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|c:\\my web sites\\bookory mvc\\bookory\\bookory\\wwwroot\\css\\style3601.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A345040B-BFC7-4FB1-9A9E-A6DE08C9BAE6}|bookory\\bookory.csproj|solutionrelative:bookory\\wwwroot\\css\\style3601.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "bookory\\Models\\Book.cs",
+              "ToolTip": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Models\\Book.cs",
+              "RelativeToolTip": "bookory\\Models\\Book.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA+wFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:23:10.162Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "create.cshtml",
+              "DocumentMoniker": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\Admin\\create.cshtml",
+              "RelativeDocumentMoniker": "bookory\\Views\\Admin\\create.cshtml",
+              "ToolTip": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\Admin\\create.cshtml",
+              "RelativeToolTip": "bookory\\Views\\Admin\\create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T08:51:08.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_GenreSmall.cshtml",
+              "DocumentMoniker": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\Shared\\_GenreSmall.cshtml",
+              "RelativeDocumentMoniker": "bookory\\Views\\Shared\\_GenreSmall.cshtml",
+              "ToolTip": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\Shared\\_GenreSmall.cshtml",
+              "RelativeToolTip": "bookory\\Views\\Shared\\_GenreSmall.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T08:41:17.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "bookory\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "bookory\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T08:49:05.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "bookory\\Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "bookory\\Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAAP0GAAAAAAAAAAAlwAgHAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T08:54:59.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_BookListPartial.cshtml",
+              "DocumentMoniker": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\Shared\\_BookListPartial.cshtml",
+              "RelativeDocumentMoniker": "bookory\\Views\\Shared\\_BookListPartial.cshtml",
+              "ToolTip": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\Shared\\_BookListPartial.cshtml",
+              "RelativeToolTip": "bookory\\Views\\Shared\\_BookListPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T19:27:22.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "bookory\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "bookory\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwDcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T18:34:56.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "bookory\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "bookory\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA8wCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T08:49:21.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "bookory\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "bookory\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T09:16:45.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_BigBookCard.cshtml",
+              "DocumentMoniker": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\Shared\\_BigBookCard.cshtml",
+              "RelativeDocumentMoniker": "bookory\\Views\\Shared\\_BigBookCard.cshtml",
+              "ToolTip": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\Shared\\_BigBookCard.cshtml",
+              "RelativeToolTip": "bookory\\Views\\Shared\\_BigBookCard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T19:23:49.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "bookory\\Views\\shop\\Index.cshtml",
+              "ToolTip": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\Views\\shop\\Index.cshtml",
+              "RelativeToolTip": "bookory\\Views\\shop\\Index.cshtml",
+              "ViewState": "AgIAAOEHAAAAAAAAAAAqwOgHAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T18:26:44.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "style3601.css",
+              "DocumentMoniker": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\wwwroot\\css\\style3601.css",
+              "RelativeDocumentMoniker": "bookory\\wwwroot\\css\\style3601.css",
+              "ToolTip": "C:\\My Web Sites\\bookory mvc\\bookory\\bookory\\wwwroot\\css\\style3601.css",
+              "RelativeToolTip": "bookory\\wwwroot\\css\\style3601.css",
+              "ViewState": "AgIAAAIfAAAAAAAAAAAAAA8fAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-20T22:18:59.865Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

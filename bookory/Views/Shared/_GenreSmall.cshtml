@@ -1,0 +1,21 @@
+﻿@model bookory.Models.Book
+<div class="column-item elementor-categories-item">
+
+    <div class="product-cat elementor-repeater-item-0da7c8f">
+        <a class="product-cat-link" 
+           href="@(Model.Genres.Any() ? "/Shop?genres=" + @Model.Genres.FirstOrDefault().Id : "/Shop")"
+           title="@(Model.Genres?.FirstOrDefault()?.Name ?? "No Genre")">
+            <div class="category-product-img">
+                <img decoding="async" src="@Model.CoverUrl"
+                     alt="@(Model.Genres?.FirstOrDefault()?.Name ?? "No Genre")">
+            </div>
+            <div class="product-cat-caption">
+                <div class="cat-title">
+                    <span>
+                        @(Model.Genres?.LastOrDefault()?.Name ?? "No Genre")
+                    </span>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>

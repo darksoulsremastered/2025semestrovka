@@ -1,0 +1,8 @@
+﻿@model bookory.Models.Genres
+
+<li class="elementor-icon-list-item">
+	<a asp-controller="ProductCategories" asp-route-id="@Model.Id">
+
+		<span class="elementor-icon-list-text">@Model.Name</span>
+	</a>
+</li>

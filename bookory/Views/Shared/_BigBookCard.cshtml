@@ -1,0 +1,16 @@
+﻿@model bookory.Models.Book
+
+<li class="product type-product post-111 status-publish first instock product_cat-action-adventure product_tag-books product_tag-fiction product_tag-romance-contemporary has-post-thumbnail featured virtual purchasable product-type-simple">
+	<div class="product-block-list product-block-list-8">
+		<div class="left">
+			<a asp-controller="Books" asp-action="Details" asp-route-id="@Model.Id" class="menu-thumb">
+				<img loading="lazy" decoding="async" width="600" height="840" src="@Model.CoverUrl" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" />
+			</a>
+		</div>
+		<div class="right">
+			<h3 class="woocommerce-loop-product__title"><a asp-controller="Books" asp-action="Details" asp-route-id="@Model.Id">@Model.Title</a></h3>            <div class="count-review"><div class="star-rating" role="img" aria-label="Rated 4.40 out of 5"><span style="width:88%">Rated <strong class="rating">4.40</strong> out of 5</span></div><span>5</span></div>                        
+			<div class="woocommerce-loop-product__author"><a asp-controller="Authors" asp-action="Details" asp-route-id="@Model.AuthorId">@Model.Author.Name</a></div>
+			<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>@Model.Price</bdi></span></span>
+		</div>
+	</div>
+</li>

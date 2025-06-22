@@ -1,0 +1,20 @@
+﻿@model bookory.Models.Authors
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div style="color: red">Form not valid</div>
+}
+<h1>Add New Author</h1>
+
+<form asp-action="Create" method="post">
+    <label>Name:</label>
+    <input asp-for="Name" class="form-control" />
+    <br />
+    <label>Description:</label>
+    <textarea asp-for="Description" class="form-control"></textarea>
+    <br />
+    <label>Photo URL:</label>
+    <input asp-for="PhotoUrl" class="form-control" />
+    <br />
+    <button type="submit">Save</button>
+</form>

@@ -1,0 +1,51 @@
+﻿@model bookory.Models.BookFormViewModel
+@using bookory.Models
+@{
+    var authors = ViewBag.Authors as List<Authors>;
+    var vendors = ViewBag.Vendors as List<Vendor>;
+    var genres = ViewBag.Genres as List<Genres>;
+}
+<h1>Add a New Book</h1>
+
+<form asp-action="Create" method="post">
+    <label>Title</label>
+    <input asp-for="Title" class="form-control" />
+
+    <label>Price</label>
+    <input asp-for="Price" class="form-control" />
+
+    <label>Author</label>
+    <select asp-for="AuthorId" class="form-control">
+        <option value="">-- Select an Author --</option>
+        @foreach (var author in authors)
+        {
+            <option value="@author.Id">
+                @author.Name
+            </option>
+        }
+    </select>
+
+    <label>Vendor</label>
+    <select asp-for="VendorId" class="form-control">
+        <option value="">-- Select a Vendor --</option>
+        @foreach (var vendor in vendors)
+        {
+            <option value="@vendor.Id">
+                @vendor.Name
+            </option>
+        }
+    </select>
+
+    <label>Genres</label>
+    <select asp-for="SelectedGenreIds" class="form-control" multiple
+            asp-items="@(new MultiSelectList(genres, "Id", "Name"))">
+    </select>
+
+    <label>Cover URL</label>
+    <input asp-for="CoverUrl" class="form-control" />
+
+    <label>Description</label>
+    <input asp-for="Description" class="form-control" />
+
+    <button type="submit">Add Book</button>
+</form>

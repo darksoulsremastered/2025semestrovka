@@ -1,0 +1,36 @@
+/*
+Theme Name:     Demo-child
+Theme URI:
+Description:    bookory child theme.
+Author:         Me
+Author URI:
+Template:       bookory
+Version:        1.0.0
+*/
+
+
+.home-free .logo-free{
+    position: absolute;
+    top: -26px;
+    left: 22px;
+}
+.home-free .logo-free svg{
+    width: 78px !important;
+}
+
+/*ul.products li.product img{*/
+/*    object-fit: cover;*/
+/*    aspect-ratio:5/7;*/
+/*}*/
+
+/*.product_list_widget li img{*/
+/*    object-fit: cover;*/
+/*    aspect-ratio: 5/7;*/
+/*}*/
+/*ul.products-list li.product-list .product-image img{*/
+/*    aspect-ratio: 5/7;*/
+/*}*/
+
+.single-post.bookory-full-width-content .post-thumbnail img {
+    width: 100%;
+}

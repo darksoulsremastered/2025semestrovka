@@ -1,0 +1,15 @@
+﻿@model List<bookory.Models.Authors>
+
+<h1>All Authors</h1>
+<a href="/Authors/Create">Add Author</a>
+
+<ul>
+    @foreach (var author in Model)
+    {
+        <li>
+            <strong>@author.Name</strong><br />
+            <img src="@author.PhotoUrl" width="100" /><br />
+            @author.Description
+        </li>
+    }
+</ul>
